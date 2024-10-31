@@ -1,19 +1,21 @@
 ---
-title: 'An example conference paper'
+title: 'Large Language Model-based data-driven framework for digital transformation in construction history'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - R. Ma
+  - G. Q. Shen
+  - P. Lou
   - admin
-  - Robert Ford
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2023-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,7 +30,7 @@ publication_types: ['paper-conference']
 publication: In *Hugo Blox Builder Conference*
 publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: With the wide and fragmented use of digital technology in construction, a systematic digital transformation (DT)of the industry is needed. The industry's 'synergy development' context, marked by diverse data resources and significant investment, complicates collaboration and burdens the DT process. Notably, the transformation knowledge of DT is often 'buried' within the vast data produced by daily management processes, making it challenging to discern the rules of DT without labor-intensive and time-consuming manual methods. Hence, a well-established data-driven framework for enhancing the DT process to promote whole-life-cycle industry transformation is essential. The large language model (LLM) supercharges the data-driven framework, enabling automated reasoning and precise insights to be derived from extensive datasets, thus fostering a smarter DT framework to manage the DT process. Therefore, this study uses a question-answering system based on an LLM and a localized knowledge base to guide decision-makers in developing engagement strategies that improve DT performance and foster collaboration. This study presents a practical application of LLMs in the DT of construction enterprises, anticipates future applications, and explores their potential use throughout a construction project's transformation lifecycle.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,13 +47,13 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
