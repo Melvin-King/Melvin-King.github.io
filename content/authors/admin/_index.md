@@ -77,8 +77,8 @@ work:
     company_url: 'https://www.linkedin.com/company/code-for-asia-society-ltd/posts/?feedView=all'
     company_logo: ''
     date_start: 2023-06-01
-    date_end: '2023-08-31'
-    summary: |2-
+    date_end: 2023-08-31
+    summary: |
       Responsibilities include:
       - Building and maintaining the website
       - Generative AI problem solving
