@@ -57,11 +57,18 @@ education:
     date_start: 2020-09-01
     date_end: 2024-07-15
     summary: |
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Graduated with Second Class Honours Division 1
 work:
+  - position: Research Assistant (Full-time)
+  company_name: Department of Computing, PolyU
+  company_url: 'https://www.polyu.edu.hk/comp/'
+  company_logo: ''
+  date_start: 2024-06-01
+  date_end: 2024-09-01
+  summary: |
+    Responsibilities include:
+    - Temporal Graph Neural Network (TGNN), link prediction and node classification
+    - Model Testing, Evaluation and benckmarking
   - position: Full-stack Developer
     company_name: Code for Asia Society Ltd.
     company_url: 'https://www.linkedin.com/company/code-for-asia-society-ltd/posts/?feedView=all'
@@ -70,20 +77,18 @@ work:
     date_end: '2023-08-31'
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Building and maintaining the website
+      - Generative AI problem solving
+  - position: Research Assistant (Part-time)
+    company_name: Department of Building and Real Estate, PolyU
+    company_url: 'https://www.polyu.edu.hk/en/bre/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-04-01
+    date_end: 2024-06-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - LLM-driven Online Public Engagement Analysis
+      - Data Retrieval, Large Language Model, Social Network Analysis, Paper Completion
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -121,11 +126,11 @@ skills:
 
 languages:
   - name: English
+    percent: 90
+  - name: Mandarin
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Cantonese
+    percent: 60
 
 # Awards.
 #   Add/remove as many awards below as you like.
