@@ -27,13 +27,13 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *2024 ASCE International Conference on Computing in Civil Engineering*
+publication_short: In *i3CE2024*
 
 abstract: With the wide and fragmented use of digital technology in construction, a systematic digital transformation (DT)of the industry is needed. The industry's 'synergy development' context, marked by diverse data resources and significant investment, complicates collaboration and burdens the DT process. Notably, the transformation knowledge of DT is often 'buried' within the vast data produced by daily management processes, making it challenging to discern the rules of DT without labor-intensive and time-consuming manual methods. Hence, a well-established data-driven framework for enhancing the DT process to promote whole-life-cycle industry transformation is essential. The large language model (LLM) supercharges the data-driven framework, enabling automated reasoning and precise insights to be derived from extensive datasets, thus fostering a smarter DT framework to manage the DT process. Therefore, this study uses a question-answering system based on an LLM and a localized knowledge base to guide decision-makers in developing engagement strategies that improve DT performance and foster collaboration. This study presents a practical application of LLMs in the DT of construction enterprises, anticipates future applications, and explores their potential use throughout a construction project's transformation lifecycle.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This research proposes a data-driven framework paradigm, amalgamating 'Large Language Models (LLMs) + construction knowledge databases', modelled on a question-answering system. It leverages domain-specific knowledge to enhance the output produced by LLMs.
 
 tags:
   - Large Language Models
