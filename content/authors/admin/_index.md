@@ -6,26 +6,26 @@ title: 吳健雄
 name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Wang Ming
+last_name: Melvin
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🎃️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: BSc in Computer Science, The Hong Kong Polytechnic University
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Department of Computing, The Hong Kong Polytechnic University
+    url: https://www.polyu.edu.hk/en/comp/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Large Language Models, Graph Neural Network and Multimodal Learning.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
