@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: BSc in  Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Department of Computing, PolyU
+    url: https://www.polyu.edu.hk/en/comp/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -57,39 +57,17 @@ education:
     date_start: 2020-09-01
     date_end: 2024-07-15
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Full-stack Developer
+    company_name: Code for Asia Society Ltd.
+    company_url: 'https://www.linkedin.com/company/code-for-asia-society-ltd/posts/?feedView=all'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-06-01
+    date_end: '2023-08-31'
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -183,5 +161,5 @@ awards:
 
 ## About Me
 
-I recently graduated with a B.Sc. in Computer Science from The Hong Kong Polytechnic University. My primary research interests revolve around Large Language Models, AI in real scenarios, Social Network Analysis, Data Mining, Graph Neural Networks, and more! 
+I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. My primary research interests revolve around Large Language Models, AI in real scenarios, Social Network Analysis, Data Mining, Graph Neural Networks, and more! 
 I am actively seeking opportunities for Ph.D. studies in the fall of 2025/2026, or any research experiences...
