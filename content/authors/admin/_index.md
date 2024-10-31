@@ -62,36 +62,28 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Research Assistant (Full-time)
-  company_name: Department of Computing, PolyU
-  company_url: 'https://www.polyu.edu.hk/comp/'
-  company_logo: ''
-  date_start: 2024-06-01
-  date_end: 2024-09-01
-  summary: |
-    Responsibilities include:
-    - Temporal Graph Neural Network (TGNN), link prediction and node classification
-    - Model Testing, Evaluation and benckmarking
   - position: Full-stack Developer
     company_name: Code for Asia Society Ltd.
     company_url: 'https://www.linkedin.com/company/code-for-asia-society-ltd/posts/?feedView=all'
     company_logo: ''
     date_start: 2023-06-01
-    date_end: 2023-08-31
-    summary: |
+    date_end: '2023-08-31'
+    summary: |2-
       Responsibilities include:
-      - Building and maintaining the website
-      - Generative AI problem solving
-  - position: Research Assistant (Part-time)
-    company_name: Department of Building and Real Estate, PolyU
-    company_url: 'https://www.polyu.edu.hk/en/bre/'
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
     company_logo: ''
-    date_start: 2023-04-01
-    date_end: 2024-06-01
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - LLM-driven Online Public Engagement Analysis
-      - Data Retrieval, Large Language Model, Social Network Analysis, Paper Completion
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
