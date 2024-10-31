@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: Wang Ming (Melvin)
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Wang Ming
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: BSc in Computer Science, The Hong Kong Polytechnic University
+role: BSc in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
