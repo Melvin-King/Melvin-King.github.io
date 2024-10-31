@@ -31,10 +31,10 @@ bio: My research interests include Large Language Models, Graph Neural Network a
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:cd.melvin.wang@outlook.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/melvinmwang
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/linkedin
@@ -54,6 +54,5 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I recently graduated with a B.Sc. in Computer Science from The Hong Kong Polytechnic University. My primary research interests revolve around Large Language Models, AI in real scenarios, Social Network Analysis, Data Mining, Graph Neural Networks, and more! 
+I am actively seeking opportunities for Ph.D. studies in the fall of 2025/2026, or any research experiences...
