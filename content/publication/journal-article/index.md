@@ -1,8 +1,10 @@
 ---
-title: "An example journal article"
+title: "How Large Language Model Empowers Online Public Engagement Analysis for Mega Infrastructure Projects: cases in Hong Kong"
 authors:
 - admin
-- Robert Ford
+- R. Ma
+- G. Q. Shen
+- J. Xue
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -18,13 +20,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*IEEE Transactions on Engineering Management*(IEEE TEM)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Mega infrastructure projects (MIPs) significantly impact society, and public engagement plays a key role in shaping their performances. With the rise of social media, analyzing public opinions dynamically can help decision-makers better understand and respond to public concerns. This study focuses on identifying key influencers and analyzing influencer-public interactions during MIPs’ planning and construction phases using nine cases from Hong Kong. The Large language model (LLM) introduced for identity and sentiment analysis, alongside social network analysis (SNA), enables online public engagement analysis. The findings reveal how influencers interact with the public across different project events, providing decision-makers with insights to improve communication, transparency, and engagement strategies. This study provides an LLM-based method and managerial map for enhancing online public engagement practices in project management.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: this study proposes a method to uncover the interactions related to online public engagement in MIPs by examining the distribution of user identities involved, identifying individuals with considerable influence, and evaluating the interactions between these “engaged users” and “influencers” during various project events. Observations are used to guide project decision-makers to understand public opinion of engineering projects on social networks.
 
 tags:
 - Source Themes
@@ -33,8 +35,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
