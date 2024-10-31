@@ -1,6 +1,7 @@
 ---
-title: 📈 Thrilled to present our research on ASCE i3CE2024, held by Carneige Mellon University!
-date: 2024-08-01
+title: 📈 Communicate your results effectively with the best data visualizations
+summary: Use popular tools such as Plotly, Mermaid, and data frames.
+date: 2023-10-25
 authors:
   - admin
 tags:
