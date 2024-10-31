@@ -4,8 +4,6 @@
 
 [build.environment]
   HUGO_VERSION = "0.135.0"
-  GO_VERSION = "1.21.5"
-  NODE_VERSION = "21.1.0"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
