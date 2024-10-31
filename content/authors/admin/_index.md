@@ -43,9 +43,10 @@ profiles:
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0002-2164-406X/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
