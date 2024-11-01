@@ -19,7 +19,8 @@ During the conference, we visited the City of Pittsburgh, a beautiful city with 
 ![Scenario 1: Across columns](selfie.jpg)
 It has been a routine for me to drop by the department of computer science every time I visit a new institution, including CMU...
 
-{{</* video src="assets/media/pillows.mp4" controls="yes" */>}}
+{{</* video src="pillows.mp4" controls="yes" */>}}
+
 Flying pillows at The Andy Warhol Museum. Strange yet fanscinating!
 
 **Youtube**:
