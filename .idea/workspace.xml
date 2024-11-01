@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d345f1a-a3bc-448f-959a-a8a98ab1375c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/media/stacked-peaks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/stacked-peaks.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/hooks/head-end/github-button.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/hooks/head-end/github-button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/icons/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\content\blog" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\assets\media\icons" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
-      <workItem from="1730398788090" duration="31184000" />
+      <workItem from="1730398788090" duration="31545000" />
     </task>
     <servers />
   </component>
