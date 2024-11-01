@@ -22,7 +22,7 @@ It has been a routine for me to drop by the department of computer science every
 ![Scenario 1: Across columns](cmu_lib.jpg)
 Catching up baselines testings in the library of CMU.
 
-{{</* video src="pillows.mp4" controls="yes" */>}}
+{{</* video src="content/post/pitts/pillows.mp4" controls="yes" */>}}
 
 Flying pillows at [The Andy Warhol Museum](https://www.warhol.org/). Strange yet fanscinating!
 
