@@ -1,6 +1,6 @@
 ---
 title: 🎒 Touring around City of Pittsburgh
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
+summary: Check out some highlights of my trip along with the conference!
 date: 2024-08-03
 math: true
 authors:
@@ -19,9 +19,12 @@ During the conference, we visited the City of Pittsburgh, a beautiful city with 
 ![Scenario 1: Across columns](selfie.jpg)
 It has been a routine for me to drop by the department of computer science every time I visit a new institution, including CMU...
 
+![Scenario 1: Across columns](cmu_lib.jpg)
+Catching up baselines testings in the library of CMU.
+
 {{</* video src="pillows.mp4" controls="yes" */>}}
 
-Flying pillows at The Andy Warhol Museum. Strange yet fanscinating!
+Flying pillows at [The Andy Warhol Museum](https://www.warhol.org/). Strange yet fanscinating!
 
 **Youtube**:
 
