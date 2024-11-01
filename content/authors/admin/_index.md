@@ -36,9 +36,9 @@ profiles:
   - icon: brands/x
     url: https://twitter.com/melvinmwang
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/melvinrking/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Melvin-King
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/wang-ming-melvin/
   - icon: academicons/google-scholar
