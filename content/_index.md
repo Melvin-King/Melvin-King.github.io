@@ -38,6 +38,8 @@ sections:
         I'm currently open to on-site and remote research experiences! Don't hesitate to contact me if you found it a good match 😁
     design:
       columns: '1'
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     id: papers
     content:
@@ -49,6 +51,8 @@ sections:
     design:
       view: article-grid
       columns: 2
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     content:
       title: Recent Publications
@@ -59,6 +63,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     id: talks
     content:
@@ -69,6 +75,8 @@ sections:
     design:
       view: article-grid
       columns: 1
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     id: news
     content:
