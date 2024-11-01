@@ -1,27 +1,19 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
+title: 🎒 Touring around City of Pittsburgh
 summary: Embed videos, podcasts, code, LaTeX math, and even test students!
-date: 2023-10-24
+date: 2024-08-03
 math: true
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
+  - 2024
+  - life
+  - travel
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
-
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
-
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
-
-## Video
-
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+During the conference, we visited the City of Pittsburgh, a beautiful city with skyscrapers, a row of hills and trams!
 
 **Youtube**:
 
