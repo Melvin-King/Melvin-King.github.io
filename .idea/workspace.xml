@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d345f1a-a3bc-448f-959a-a8a98ab1375c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/icons/custom/aws.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/icons/aws.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +45,8 @@
       <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\content\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\static\icons" />
       <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\assets\media\icons" />
+      <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\static\icons" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
-      <workItem from="1730398788090" duration="49364000" />
+      <workItem from="1730398788090" duration="49877000" />
     </task>
     <servers />
   </component>
