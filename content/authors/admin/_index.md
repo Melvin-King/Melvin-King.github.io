@@ -57,13 +57,20 @@ education:
     date_start: 2020-09-01
     date_end: 2024-07-15
     summary: |
-      Graduated with Second Class Honours Division 1
-
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
+  - position: Research Assistant (Full-time)
+    company_name: Department of Computing, PolyU
+    company_url: 'https://www.polyu.edu.hk/comp/'
+    company_logo: ''
+    date_start: 2024-06-01
+    date_end: 2024-09-01
+    summary: |
+      Responsibilities include:
+      - Temporal Graph Neural Network (TGNN), link prediction and node classification
   - position: Full-stack Developer
     company_name: Code for Asia Society Ltd.
     company_url: 'https://www.linkedin.com/company/code-for-asia-society-ltd/posts/?feedView=all'
@@ -72,9 +79,8 @@ work:
     date_end: '2023-08-31'
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Building and maintaining the website
+      - Generative AI problem solving
   - position: Backend Software Engineer
     company_name: X
     company_url: ''
