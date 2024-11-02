@@ -29,7 +29,10 @@ abstract: Mega infrastructure projects (MIPs) significantly impact society, and 
 summary: this study proposes a method to uncover the interactions related to online public engagement in MIPs by examining the distribution of user identities involved, identifying individuals with considerable influence, and evaluating the interactions between these “engaged users” and “influencers” during various project events. Observations are used to guide project decision-makers to understand public opinion of engineering projects on social networks.
 
 tags:
-- Source Themes
+- LLM
+- Social Network Analysis
+- Online Engagement
+- Megaprojects
 featured: true
 
 # links:

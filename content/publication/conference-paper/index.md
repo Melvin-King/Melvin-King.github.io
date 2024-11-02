@@ -36,7 +36,9 @@ abstract: With the wide and fragmented use of digital technology in construction
 summary: This research proposes a data-driven framework paradigm, amalgamating 'Large Language Models (LLMs) + construction knowledge databases', modelled on a question-answering system. It leverages domain-specific knowledge to enhance the output produced by LLMs.
 
 tags:
-  - Large Language Models
+  - LLMs
+  - Digital Transformation
+  - Civil Engineering
 
 # Display this page in the Featured widget?
 featured: true
