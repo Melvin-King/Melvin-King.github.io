@@ -67,5 +67,5 @@ slides: example
 ---
 
 {{% callout note %}}
-This journal paper is currently undergoing review after a major revision submitted to [IEEE TEM](https://www.ieee-tems.org/ieee-transactions-on-engineering-management/) on September 25, 2024.
+This journal paper is currently undergoing review after a major revision submitted to IEEE TEM on September 25, 2024.
 {{% /callout %}}

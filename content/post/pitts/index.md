@@ -14,17 +14,18 @@ image:
 ---
 
 During the conference, we visited the City of Pittsburgh, a beautiful city with skyscrapers, a row of hills and trams!
-
+![Scenario 1: Across columns](group_photo.jpg)
+Chilling out with attendees! We took this group shot at the Duquesne Heights observation deck.
 
 ![Scenario 1: Across columns](selfie.jpg)
 It has been a routine for me to drop by the department of computer science every time I visit a new institution, including CMU...
 
 ![Scenario 1: Across columns](cmu_lib.jpg)
-Catching up baselines testings in the library of CMU.
+Catching up baselines testings in the library.
 
 {{< video src="pillows.mp4" controls="no" >}}
 
-Flying pillows at [The Andy Warhol Museum](https://www.warhol.org/). Strange yet fanscinating!
+Flying pillows at [The Andy Warhol Museum](https://www.warhol.org/). Strange yet fanscinating! I was delighted to learn about Andy's contributions to visual artworks and his significant impact on modern human artistry.
 
 **Youtube**:
 
