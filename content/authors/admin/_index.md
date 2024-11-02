@@ -58,9 +58,8 @@ education:
     date_end: 2024-07-15
     summary: |
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Computer Vision (COMP4423), Machine Learning (COMP4432), System Programming (COMP3438), Operating Systems (COMP2432), Data Structures (COMP2011) ...
+      - Intro to Statistics (AMA1602), Calculus and linear Algebra (AMA1120), Operations Research Methods (AMA3820) ...
 work:
   - position: Research Assistant (Full-time)
     company_name: Department of Computing, PolyU
@@ -141,13 +140,6 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: aws
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
