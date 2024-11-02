@@ -32,7 +32,7 @@ It has been a routine for me to drop by the department of computer science every
 Catching up baselines testings in the library.
 
 ![Scenario 1: Across columns](gallery.jpg)
-{{< video src="pillows.mp4" autoplay="true" loop="true" controls="no" muted="true" >}}
+{{< video src="pillows.mp4" controls="no" >}}
 
 Flying pillows at [The Andy Warhol Museum](https://www.warhol.org/). Strange yet fanscinating! I was delighted to learn about Andy's contributions to visual artworks and his significant impact on modern human artistry.
 
