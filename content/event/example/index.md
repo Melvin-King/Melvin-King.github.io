@@ -1,30 +1,33 @@
 ---
-title: Example Talk
+title: Conference Paper Presentation
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: 2024 ASCE International Conference on Computing in Civil Engineering
+event_url: https://www.cmu.edu/cee/i3ce2024/index.html
 
-location: Hugo Blox Builder HQ
+location: Sheraton Pittsburgh Hotel at Station Square
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 300 W Station Square Dr
+  city: Pittsburgh
+  region: PA
+  postcode: '15219'
   country: United States
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Presentation of our work on ASCE International Conference on Computing in Civil Engineering (i3CE2024).
+abstract: 'Click [here](https://melvin-king.github.io/publication/conference-paper/).'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-07-28T13:00:00Z'
+date_end: '2024-07-31T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-01-01T00:00:00Z'
 
 authors:
+  - R. Ma
+  - G. Q. Shen
+  - P. Lou
   - admin
 
 tags: []
@@ -61,15 +64,3 @@ slides: ""
 projects:
   - example
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
