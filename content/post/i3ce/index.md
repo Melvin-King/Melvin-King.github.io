@@ -1,5 +1,6 @@
 ---
 title: 🌆 Thrilled to present our research on ASCE i3CE2024, held by Carneige Mellon University!
+summary: We met so many outstanding researchers and engaged in discussions on interesting topics related to civil engineering and computing.
 date: 2024-08-01
 authors:
   - admin
