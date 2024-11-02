@@ -57,6 +57,8 @@ education:
     date_start: 2020-09-01
     date_end: 2024-07-15
     summary: |
+      Graduated with Second Class Honours Division 1
+
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
