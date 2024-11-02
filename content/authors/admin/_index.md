@@ -71,6 +71,7 @@ work:
     summary: |
       Responsibilities include:
       - Temporal Graph Neural Network (TGNN), link prediction and node classification
+      - Baseline model performance testing and evaluation
   - position: Full-stack Developer
     company_name: Code for Asia Society Ltd.
     company_url: 'https://www.linkedin.com/company/code-for-asia-society-ltd/posts/?feedView=all'
@@ -81,17 +82,17 @@ work:
       Responsibilities include:
       - Building and maintaining the website
       - Generative AI problem solving
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: Research Assistant (Part-time)
+    company_name: Department of Building and Real Estate, PolyU
+    company_url: 'https://www.polyu.edu.hk/en/bre/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-04-01
+    date_end: 2024-06-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - LLM-driven Online Public Engagement Analysis
+      - Data Retrieval, Large Language Model, Social Network Analysis
+      - Paper Completion and Publication
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
