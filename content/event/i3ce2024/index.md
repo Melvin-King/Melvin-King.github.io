@@ -68,5 +68,3 @@ projects:
 {{% callout note %}}
 The publication date is scheduled in January, 2025.
 {{% /callout %}}
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
