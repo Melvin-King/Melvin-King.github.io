@@ -17,7 +17,7 @@ During the conference, we visited the City of Pittsburgh, a beautiful city with 
 
 ![Scenario 1: Across columns](rex.jpg)
 ![Scenario 1: Across columns](rex2.jpg)
-I was shocked to see a rex fossil (Upon closer inspection, the platform at its feet turned to a wishing well) at the airport! Later on, I bumped into more of them at the [Carnegie Museum of Natural History](https://carnegiemnh.org/).
+I was shocked to see a rex fossil (the platform at its feet turned to a wishing pool) at the airport! Later on, I bumped into more of them at the [Carnegie Museum of Natural History](https://carnegiemnh.org/).
 
 ![Scenario 1: Across columns](tram.jpg)
 On board the well-known Duquesne Incline! It reminds me of The Peak Tram in Hong Kong Island.
