@@ -1,19 +1,19 @@
 ---
 title: Conference Paper Presentation
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: 2024 ASCE International Conference on Computing in Civil Engineering
+event_url: https://www.cmu.edu/cee/i3ce2024/index.html
 
-location: Hugo Blox Builder HQ
+location: Sheraton Pittsburgh Hotel at Station Square
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 300 W Station Square Dr
+  city: Pittsburgh
+  region: PA
+  postcode: '15219'
   country: United States
 
 summary: Presentation of our work on ASCE i3CE2024.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+abstract: 'Click [here](https://melvin-king.github.io/publication/conference-paper/) to see.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -66,13 +66,7 @@ projects:
 ---
 
 {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+The publication date is scheduled in January, 2025.
 {{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
 
 Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
