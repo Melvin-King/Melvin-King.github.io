@@ -13,7 +13,7 @@ address:
   country: United States
 
 summary: Presentation of our work on ASCE i3CE2024.
-abstract: 'Click [here](https://melvin-king.github.io/publication/conference-paper/) to see.'
+abstract: Click [here](https://melvin-king.github.io/publication/conference-paper/) to see.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

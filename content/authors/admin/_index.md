@@ -11,7 +11,7 @@ last_name: Wang
 
 # Status emoji
 status:
-  icon: 🎃️️
+  icon: 💻️
 
 # Is this the primary user of the site?
 superuser: true
@@ -32,7 +32,7 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:cd.melvin.wang@outlook.com'
-    label: E-mail Me
+    label: cd.melvin.wang at outlook.com
   - icon: brands/x
     url: https://twitter.com/melvinmwang
   - icon: brands/instagram
