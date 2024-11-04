@@ -1,6 +1,6 @@
 ---
 title: Personal
-summary: My courses
+summary: Find out more about me!
 type: landing
 
 cascade:
