@@ -27,6 +27,39 @@ Amazing hiking day spent with Dr. Xue, paying his return visit to Hong Kong.
 
 It's a pity that we did not conquer the peak due to limited time. The challenge is kept for the future!
 
+## Great Ocean Road on Mar, 2024
+
+Lasting memories along the Australian National Heritage-listed 240-kilometer stretch of road.
+
+![Scenario 1: Across columns](gor1.png)
+
+Memorial Arch, known as the "real start" of the Great Ocean Road.
+
+![Scenario 1: Across columns](gor2.png)
+
+Split Point Lighthoouse.
+
+![Scenario 1: Across columns](gor3.png)
+
+Map embedded in rock.
+
+![Scenario 1: Across columns](gor4.png)
+
+Waterfall of Carisbrook Creek.
+
+![Scenario 1: Across columns](gor5.png)
+![Scenario 1: Across columns](gor6.png)
+
+Costal view at Lorne Pier.
+
+![Scenario 1: Across columns](gorY.png)
+
+📸Shot of the trip! Stunning sunset view at the "London Bridge".
+
+![Scenario 1: Across columns](gorX.png)
+
+Motel gate in Warrnambool. Yes, the car departed from NSW (check the license plate)!
+
 ## Kai Kung Leng on Nov 13, 2023
 
 ![Scenario 1: Across columns](kkl1.png)
