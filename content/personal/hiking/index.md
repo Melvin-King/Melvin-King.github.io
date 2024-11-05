@@ -66,6 +66,65 @@ Motel gate in Warrnambool. Yes, the car departed from NSW (check the license pla
 
 ![Scenario 1: Across columns](kkl2.png)
 
+Miscanthus of the season.
+
 ![Scenario 1: Across columns](kkl3.png)
 
 ![Scenario 1: Across columns](kkl4.png)
+
+## Tai Mo Shan on Dec 08, 2021
+
+![Scenario 1: Across columns](tms1.jpg)
+
+Wild monkey on the branch.
+
+![Scenario 1: Across columns](tms2.jpg)
+
+Rocks on the slope.
+
+![Scenario 1: Across columns](tms3.jpg)
+
+![Scenario 1: Across columns](tms4.jpg)
+
+![Scenario 1: Across columns](tms5.jpg)
+
+The weather radar station on Hong Kong's highest peak.
+
+![Scenario 1: Across columns](tms6.jpg)
+
+
+## Ng Tung Chai on Jul 31, 2021
+
+![Scenario 1: Across columns](ntc2.jpg)
+
+Middle fall with a refreshing pool.
+
+![Scenario 1: Across columns](ntc3.jpg)
+
+Main fall with a drop of 35 meters!
+
+![Scenario 1: Across columns](ntc4.jpg)
+
+![Scenario 1: Across columns](ntc5.jpg)
+
+## High Island (East Dam) on Jul 10, 2021
+
+Part of the MacLehouse Trail Section 1.
+
+![Scenario 1: Across columns](hir1.jpg)
+
+![Scenario 1: Across columns](hir2.jpg)
+
+![Scenario 1: Across columns](hir3.jpg)
+
+The freshwater in the reservoir reflects a lighter shade of blue than the sea.
+
+![Scenario 1: Across columns](hir4.jpg)
+
+![Scenario 1: Across columns](hir5.jpg)
+
+View of Long Ke Wan Bay.
+
+![Scenario 1: Across columns](hir6.jpg)
+
+Ended near the eastern dam.
