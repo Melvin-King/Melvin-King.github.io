@@ -1,5 +1,5 @@
 ---
-title: 🌆 Glad to receive the certificate of achievement from Amazon Web Services (AWS)
+title: 🏆 Glad to receive the certificate of achievement from Amazon Web Services (AWS)
 summary: Grateful for the recognition of my "outstanding contribution" to the AWS Educate Cloud Ambassador Program!
 date: 2024-01-01
 authors:
