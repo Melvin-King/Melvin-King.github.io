@@ -35,14 +35,14 @@ profiles:
     label: cd.melvin.wang at outlook.com
   - icon: brands/x
     url: https://twitter.com/melvinmwang
-  - icon: brands/instagram
-    url: https://www.instagram.com/melvinrking/
   - icon: brands/github
     url: https://github.com/Melvin-King
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/wang-ming-melvin/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
+  - icon: academicons/researchgate-square
+    url: https://www.researchgate.net/profile/Ming-Wang-134
   - icon: academicons/orcid
     url: https://orcid.org/0009-0002-2164-406X/
 

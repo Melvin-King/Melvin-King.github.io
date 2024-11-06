@@ -37,7 +37,7 @@ Memorial Arch, known as the "real start" of the Great Ocean Road.
 
 ![Scenario 1: Across columns](gor2.png)
 
-Split Point Lighthoouse.
+Split Point Lighthouse.
 
 ![Scenario 1: Across columns](gor3.png)
 
