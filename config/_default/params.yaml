@@ -60,5 +60,24 @@ features:
   privacy_pack:
     enable: false
 
-favicon:
+hugo-maps:
+      default:
+        tileJSON: https://api.maptiler.com/tiles/v3/tiles.json?key={key}
+      i3ce2024_map:
+        type: local
+        style: maptiler-3d
+        center: [ -0.127758, 51.507351 ]
+        tilesBoundingBox: [ 0.49956765, 0.3325506204915718, 0.4997617583333333, 0.3323975306107756 ]
+        tilesMinZoom: 0
+        tilesMaxZoom: 15
+        minZoom: 4
+        maxZoom: 24
+        zoom: 14
+        pitch: 45
+        antialias: true
+        markers:
+          - location: [ 40.434870, -80.006240 ]
+            text: 'Conference Spot'
+
+
 
