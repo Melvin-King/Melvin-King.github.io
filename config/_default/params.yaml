@@ -62,7 +62,7 @@ features:
 
 hugo-maps:
       default:
-        tileJSON: https://api.maptiler.com/tiles/v3/tiles.json?key={3qUu0lM317K8IchROjbI}
+        tileJSON: https://api.maptiler.com/tiles/v3/tiles.json?key={JSXpPV7UwXErG1ag3ke3}
       i3ce2024_map:
         type: local
         style: maptiler-3d
