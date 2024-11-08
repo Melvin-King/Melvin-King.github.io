@@ -64,6 +64,7 @@ slides: ""
 projects:
   - example
 ---
+{{< map name="i3ce2024_map" height="250px" >}}
 
 {{% callout note %}}
 The publication date is scheduled in January, 2025.
