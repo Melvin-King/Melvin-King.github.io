@@ -39,6 +39,8 @@ profiles:
     url: https://github.com/Melvin-King
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/wang-ming-melvin/
+  - icon: brands/arxiv
+    url: https://arxiv.org/a/0009-0002-2164-406X.html
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/researchgate-square

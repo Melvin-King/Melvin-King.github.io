@@ -6,8 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="4d345f1a-a3bc-448f-959a-a8a98ab1375c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/_default/params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/event/i3ce2024/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/event/i3ce2024/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/pillows.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/authors/admin/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/authors/admin/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/book/featured.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/book/featured.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor1.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/gor1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor2.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/gor2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor3.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/gor3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor6.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/gor6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gorX.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/gorX.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hjp1.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hjp1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hjp3.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hjp3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/kkl1.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/kkl1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/kkl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/kkl2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/kkl3.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/kkl3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/kkl4.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/kkl4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/nobel_lecture/slide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/nobel_lecture/slide.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/aviary.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/aviary.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/cmu_lib.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/cmu_lib.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/gallery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/gallery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/group_photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/group_photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/rex2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/rex2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/favicon.ico" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
-      <workItem from="1730398788090" duration="92682000" />
+      <workItem from="1730398788090" duration="95324000" />
     </task>
     <servers />
   </component>
