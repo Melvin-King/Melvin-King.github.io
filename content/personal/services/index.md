@@ -14,5 +14,5 @@ image:
 ## First Aid Services
 I obtained my Standard First Aid Certificate from [Hong Kong Red Cross](https://training.redcross.org.hk/tms/en/main.jspx), and AED Provider Certificate from [Hong Kong St. John Ambulance](https://www.stjohn.org.hk/en/training-courses/course/automated-external-defibrillation-provider).
 
-![Scenario 1: Across columns](hksj1.png)
+![Scenario 1: Across columns](hksj1.jpg)
 I'm proudly serving as a brigade member of Hong Kong St. John Ambulance since July, 2024.

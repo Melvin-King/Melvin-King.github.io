@@ -11,6 +11,6 @@ tags:
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-![Scenario 1: Across columns](certificate.png)
-Thanks for the recognition of our work in Team of Transports & Logistics since February 2023. **Always Day 1!**
+![Scenario 1: Across columns](certificate.jpg)
+Thanks for the recognition of our work in Team of Transports & Logistics since February 2023. **Always Day One!**
 

@@ -34,6 +34,10 @@ It has been a routine for me to drop by the department of computer science every
 ![Scenario 1: Across columns](cmu_lib.jpg)
 Catching up baselines testings in the library.
 
+![Scenario 1: Across columns](restorer.jpg)
+The museum's restorers can be seen working behind the glass!
+
+
 ![Scenario 1: Across columns](gallery.jpg)
 {{< video src="pillows.mp4" controls="no" >}}
 

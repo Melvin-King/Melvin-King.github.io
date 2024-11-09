@@ -19,11 +19,11 @@ I'm currently based in Hong Kong, where most of my outdoor took place. I read bl
 
 Amazing hiking day spent with Dr. Xue, paying his return visit to Hong Kong.
 
-![Scenario 1: Across columns](hjp1.png)
+![Scenario 1: Across columns](hjp1.jpg)
 
-![Scenario 1: Across columns](hjp2.png)
+![Scenario 1: Across columns](hjp2.jpg)
 
-![Scenario 1: Across columns](hjp3.png)
+![Scenario 1: Across columns](hjp3.jpg)
 
 It's a pity that we did not conquer the peak due to limited time. The challenge is kept for the future!
 
@@ -39,7 +39,7 @@ Memorial Arch, known as the "real start" of the Great Ocean Road.
 
 Split Point Lighthouse.
 
-![Scenario 1: Across columns](gor3.png)
+![Scenario 1: Across columns](gor3.jpg)
 
 Map embedded in rock.
 
@@ -60,11 +60,23 @@ Costal view at Lorne Pier.
 
 Motel gate in Warrnambool. Yes, the car departed from NSW (check the license plate)!
 
+## Bipenggou Valley on Feb 17, 2024
+
+![Scenario 1: Across columns](bpg1.jpg)
+
+![Scenario 1: Across columns](bpg2.jpg)
+
+![Scenario 1: Across columns](bpg3.jpg)
+
+![Scenario 1: Across columns](bpg4.jpg)
+
+![Scenario 1: Across columns](bpg5.jpg)
+
 ## Kai Kung Leng on Nov 13, 2023
 
-![Scenario 1: Across columns](kkl1.png)
+![Scenario 1: Across columns](kkl1.jpg)
 
-![Scenario 1: Across columns](kkl2.png)
+![Scenario 1: Across columns](kkl2.jpg)
 
 Miscanthus of the season.
 
