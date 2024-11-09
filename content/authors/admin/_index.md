@@ -43,8 +43,8 @@ profiles:
     url: https://arxiv.org/a/0009-0002-2164-406X.html
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
-  - icon: academicons/researchgate-square
-    url: https://www.researchgate.net/profile/Ming-Wang-134
+#  - icon: academicons/researchgate-square
+#    url: https://www.researchgate.net/profile/Ming-Wang-134
   - icon: academicons/orcid
     url: https://orcid.org/0009-0002-2164-406X/
 
@@ -66,7 +66,7 @@ work:
   - position: Research Assistant (Full-time)
     company_name: Department of Computing, PolyU
     company_url: 'https://www.polyu.edu.hk/comp/'
-    company_logo: ''
+    company_logo: icons/polyu.svg
     date_start: 2024-06-01
     date_end: 2024-09-01
     summary: |
@@ -86,7 +86,7 @@ work:
   - position: Research Assistant (Part-time)
     company_name: Department of Building and Real Estate, PolyU
     company_url: 'https://www.polyu.edu.hk/en/bre/'
-    company_logo: ''
+    company_logo: icons/polyu.svg
     date_start: 2023-04-01
     date_end: 2024-06-01
     summary: |
