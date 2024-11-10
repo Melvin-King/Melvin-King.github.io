@@ -31,11 +31,11 @@ It's a pity that we did not conquer the peak due to limited time. The challenge 
 
 Lasting memories along the Australian National Heritage-listed 240-kilometer stretch of road.
 
-![Scenario 1: Across columns](gor1.png)
+![Scenario 1: Across columns](gor1.jpg)
 
 Memorial Arch, known as the "real start" of the Great Ocean Road.
 
-![Scenario 1: Across columns](gor2.png)
+![Scenario 1: Across columns](gor2.jpg)
 
 Split Point Lighthouse.
 
@@ -43,20 +43,20 @@ Split Point Lighthouse.
 
 Map embedded in rock.
 
-![Scenario 1: Across columns](gor4.png)
+![Scenario 1: Across columns](gor4.jpg)
 
 Waterfall of Carisbrook Creek.
 
 ![Scenario 1: Across columns](gor5.png)
-![Scenario 1: Across columns](gor6.png)
+![Scenario 1: Across columns](gor6.jpg)
 
 Costal view at Lorne Pier.
 
-![Scenario 1: Across columns](gorY.png)
+![Scenario 1: Across columns](gorY.jpg)
 
 📸Shot of the trip! Stunning sunset view at the "London Bridge".
 
-![Scenario 1: Across columns](gorX.png)
+![Scenario 1: Across columns](gorX.jpg)
 
 Motel gate in Warrnambool. Yes, the car departed from NSW (check the license plate)!
 
@@ -80,7 +80,7 @@ Motel gate in Warrnambool. Yes, the car departed from NSW (check the license pla
 
 Miscanthus of the season.
 
-![Scenario 1: Across columns](kkl3.png)
+![Scenario 1: Across columns](kkl3.jpg)
 
 ![Scenario 1: Across columns](kkl4.png)
 

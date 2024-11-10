@@ -6,7 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="4d345f1a-a3bc-448f-959a-a8a98ab1375c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/book/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/book/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/authors/admin/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/authors/admin/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/book/books.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/book/books.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gorX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gorY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/kkl3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/tobeconfirmed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/tobeconfirmed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/aws/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/aws/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/cmu_lib.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/cmu_lib.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/43952/Downloads/Telegram Desktop/my github.io/Melvin-King.github.io/content/blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/43952/Downloads/Telegram Desktop/my github.io/Melvin-King.github.io/content/blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\43952\Downloads\Telegram Desktop\my github.io\Melvin-King.github.io\content\blog" />
@@ -58,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
-      <workItem from="1730398788090" duration="104545000" />
+      <workItem from="1730398788090" duration="105381000" />
+      <workItem from="1731280758631" duration="1738000" />
     </task>
     <servers />
   </component>

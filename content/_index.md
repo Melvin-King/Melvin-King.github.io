@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📢 Announcements'
+      title: '🔊 Announcements'
       subtitle: ''
       text: |-
         I'm currently open to on-site and remote research experiences! Don't hesitate to contact me if you found it a good match 😁
