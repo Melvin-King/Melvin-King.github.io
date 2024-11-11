@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d345f1a-a3bc-448f-959a-a8a98ab1375c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/authors/admin/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/authors/admin/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/book/books.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/book/books.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gor6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gorX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/gorY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/hir6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/hir6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/kkl3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/ntc5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/ntc5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/hiking/tobeconfirmed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/tobeconfirmed.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/aws/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/aws/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/pitts/cmu_lib.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/cmu_lib.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/publication/journal-article/featured.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
       <workItem from="1730398788090" duration="105381000" />
-      <workItem from="1731280758631" duration="1738000" />
+      <workItem from="1731280758631" duration="2454000" />
     </task>
     <servers />
   </component>
