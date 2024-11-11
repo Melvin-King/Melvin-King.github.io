@@ -43,6 +43,6 @@ The museum's restorers can be seen working behind the glass!
 
 Flying pillows at [The Andy Warhol Museum](https://www.warhol.org/). Strange yet fanscinating! I was delighted to learn about Andy's contributions to visual artworks and his significant impact on modern human artistry.
 
-![Scenario 1: Across columns](waco9.png)
+![Scenario 1: Across columns](waco9.jpg)
 The historic Waco 9 airplane (known as "Miss Pittsburgh") marks the city's aviation history, known for making the first airmail flight from Pittsburgh to Cleveland, Ohio!
 

@@ -47,7 +47,7 @@ Map embedded in rock.
 
 Waterfall of Carisbrook Creek.
 
-![Scenario 1: Across columns](gor5.png)
+![Scenario 1: Across columns](gor5.jpg)
 ![Scenario 1: Across columns](gor6.jpg)
 
 Costal view at Lorne Pier.
@@ -82,7 +82,7 @@ Miscanthus of the season.
 
 ![Scenario 1: Across columns](kkl3.jpg)
 
-![Scenario 1: Across columns](kkl4.png)
+![Scenario 1: Across columns](kkl4.jpg)
 
 ## Tai Mo Shan on Dec 08, 2021
 

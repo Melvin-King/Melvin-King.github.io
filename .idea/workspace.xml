@@ -8,6 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/_default/params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/authors/admin/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/authors/admin/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/event/i3ce2024/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/event/i3ce2024/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/hiking/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/hiking/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/pitts/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/pitts/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
       <workItem from="1730398788090" duration="105381000" />
-      <workItem from="1731280758631" duration="7406000" />
+      <workItem from="1731280758631" duration="8667000" />
     </task>
     <servers />
   </component>
