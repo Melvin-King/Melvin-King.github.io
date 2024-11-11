@@ -65,8 +65,6 @@ projects:
   - example
 ---
 
-{{< map name="my_map" >}}
-
 {{% callout note %}}
 The publication date is scheduled in January, 2025.
 {{% /callout %}}
