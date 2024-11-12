@@ -15,7 +15,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'The Hugo Academic theme powered by Hugo Blox Builder.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -35,13 +35,13 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo:
-      text: "<Melvin-King>"
+    logo: favicon/favicon-96x96.png
+#      text: "<Melvin-King>"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Wang Ming. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

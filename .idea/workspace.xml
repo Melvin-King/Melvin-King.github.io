@@ -42,7 +42,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730398786791</updated>
       <workItem from="1730398788090" duration="105381000" />
-      <workItem from="1731280758631" duration="8667000" />
+      <workItem from="1731280758631" duration="11597000" />
     </task>
     <servers />
   </component>
