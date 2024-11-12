@@ -35,7 +35,7 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo: favicon/favicon-96x96.png
+    logo: favicon/favicon.svg
 #      text: "<Melvin-King>"
 
 # Site footer
