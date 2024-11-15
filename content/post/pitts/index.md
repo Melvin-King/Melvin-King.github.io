@@ -6,9 +6,9 @@ math: true
 authors:
   - admin
 tags:
+  - Life
+  - Travel
   - 2024
-  - life
-  - travel
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

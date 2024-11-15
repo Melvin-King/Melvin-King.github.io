@@ -5,10 +5,10 @@ date: 2023-02-09
 authors:
   - admin
 tags:
+  - Lecture
+  - Nobel
+  - Astronomy
   - 2023
-  - nobel
-  - astronomy
-  - lecture
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
