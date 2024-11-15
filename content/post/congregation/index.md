@@ -1,5 +1,5 @@
 ---
-title: 🎓 Excited to attend the 30th congregation ceremony as a gratudate!
+title: 🎓 Excited to attend the 30th congregation ceremony as a graduate!
 summary: The day has finally come!
 date: 2024-11-15
 authors:
