@@ -41,7 +41,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Wang Ming. This work is licensed under {license}'
+    notice: '© {year} Wang Ming. Work licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
