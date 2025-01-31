@@ -1,5 +1,5 @@
 ---
-title: 'Large Language Model-based data-driven framework for digital transformation in construction history'
+title: 'Large Language Model-based data-driven framework for digital transformation in construction industry'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
