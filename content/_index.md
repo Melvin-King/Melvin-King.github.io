@@ -57,7 +57,7 @@ sections:
         padding: [2rem, 0, 2rem, 0]
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications & Preprints
       text: ""
       filters:
         folders:
