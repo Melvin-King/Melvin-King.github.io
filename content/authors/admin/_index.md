@@ -42,7 +42,7 @@ profiles:
   - icon: brands/arxiv
     url: https://arxiv.org/a/0009-0002-2164-406X.html
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?&view_op=list_works&gmla=ANZ5fUP3CdfBitMlTfo8W7Ol_JbbsL9jZ3cfO2vKyOAi4nH6iHp9aL7Xo3pBMOfYpXnnsO-FePuJQet6L3zd5XbmGivBgWs&user=MXvEfhUAAAAJ
 #  - icon: academicons/researchgate-square
 #    url: https://www.researchgate.net/profile/Ming-Wang-134
   - icon: academicons/orcid
