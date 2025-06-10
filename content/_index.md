@@ -35,7 +35,7 @@ sections:
       title: '🔊 Announcements'
       subtitle: ''
       text: |-
-        I am actively seeking opportunities for Ph.D. studies in the fall of 2025/2026, or any research experiences.
+        I am actively seeking opportunities for Ph.D. studies in the fall of 2026, or any research experiences.
 
         I'm open to on-site and remote research experiences as well! Don't hesitate to contact me if you found it a good match 😁
     design:
