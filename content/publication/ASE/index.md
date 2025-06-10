@@ -1,25 +1,28 @@
 ---
-title: 'Large Language Model-based data-driven framework for digital transformation in construction industry'
+title: 'DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - R. Ma
-  - G. Q. Shen
-  - P. Lou
+  - J. Xiao
   - admin
+  - M. H. Lam
+  - Y. Wan
+  - J. Liu
+  - Y. Huo
+  - M. R. Lyu
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2024-07-30T00:00:00Z'
-doi: ''
+date: '2025-05-30T00:00:00Z'
+doi: 'https://doi.org/10.48550/arXiv.2506.06251'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-07-31T00:00:00Z'
+publishDate: '2025-05-31T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
