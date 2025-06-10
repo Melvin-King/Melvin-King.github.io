@@ -36,12 +36,12 @@ publication_short: In *i3CE2024*
 abstract: With the wide and fragmented use of digital technology in construction, a systematic digital transformation (DT)of the industry is needed. The industry's 'synergy development' context, marked by diverse data resources and significant investment, complicates collaboration and burdens the DT process. Notably, the transformation knowledge of DT is often 'buried' within the vast data produced by daily management processes, making it challenging to discern the rules of DT without labor-intensive and time-consuming manual methods. Hence, a well-established data-driven framework for enhancing the DT process to promote whole-life-cycle industry transformation is essential. The large language model (LLM) supercharges the data-driven framework, enabling automated reasoning and precise insights to be derived from extensive datasets, thus fostering a smarter DT framework to manage the DT process. Therefore, this study uses a question-answering system based on an LLM and a localized knowledge base to guide decision-makers in developing engagement strategies that improve DT performance and foster collaboration. This study presents a practical application of LLMs in the DT of construction enterprises, anticipates future applications, and explores their potential use throughout a construction project's transformation lifecycle.
 
 # Summary. An optional shortened abstract.
-summary: This research proposes a data-driven framework paradigm, amalgamating 'Large Language Models (LLMs) + construction knowledge databases', modelled on a question-answering system. It leverages domain-specific knowledge to enhance the output produced by LLMs.
+summary: We introduce DesignBench, the first comprehensive multi-framework multi-task benchmark for front-end code generation, encompassing React, Vue, and Angular frameworks. Beyond traditional design generation, we pioneer design edit and repair tasks. Through extensive experiments across task complexity, framework compatibility, difficulty levels, contextual factors and in-depth code-level analysis, we reveal primary limitations in current MLLMs for framework-based development and elicit several actionable advice for researchers and developers.
 
 tags:
   - LLM
-  - Digital Transformation
-  - Civil Engineering
+  - Software Engineering
+  - Benchmark
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,8 +51,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://www.arxiv.org/pdf/2506.06251'
+url_code: 'https://github.com/WebPAI/DesignBench'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -84,5 +84,5 @@ slides: example
 ---
 
 {{% callout note %}}
-The publication date is scheduled in January, 2025.
+The paper is submitted to ASE2025 on May 30, 2025.
 {{% /callout %}}

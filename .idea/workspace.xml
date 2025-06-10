@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d345f1a-a3bc-448f-959a-a8a98ab1375c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/content/publication/ASE/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/publication/ASE/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/publication/conference-paper/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/publication/conference-paper/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <workItem from="1742571514849" duration="3639000" />
       <workItem from="1743584879645" duration="43000" />
       <workItem from="1745998896253" duration="390000" />
-      <workItem from="1749537792432" duration="779000" />
+      <workItem from="1749537792432" duration="1068000" />
     </task>
     <servers />
   </component>
