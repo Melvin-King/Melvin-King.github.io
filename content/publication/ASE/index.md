@@ -1,28 +1,25 @@
 ---
-title: 'DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation'
+title: 'Large Language Model-based data-driven framework for digital transformation in construction industry'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - J. Xiao
+  - R. Ma
+  - G. Q. Shen
+  - P. Lou
   - admin
-  - M. H. Lam
-  - Y. Wan
-  - J. Liu
-  - Y. Huo
-  - M. R. Lyu
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2025-05-30T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.2506.06251'
+date: '2024-07-30T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-05-30T00:00:00Z'
+publishDate: '2024-07-31T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,18 +27,18 @@ publishDate: '2025-05-30T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv Preprint*
-publication_short: In *arXiv*
+publication: In *2024 ASCE International Conference on Computing in Civil Engineering*
+publication_short: In *i3CE2024*
 
-abstract: Multimodal Large Language Models (MLLMs) have demonstrated remarkable capabilities in automated front-end engineering, e.g., generating UI code from visual designs. However, existing front-end UI code generation benchmarks have the following limitations: (1) While framework-based development becomes predominant in modern front-end programming, current benchmarks fail to incorporate mainstream development frameworks. (2) Existing evaluations focus solely on the UI code generation task, whereas practical UI development involves several iterations, including refining editing, and repairing issues. (3) Current benchmarks employ unidimensional evaluation, lacking investigation into influencing factors like task difficulty, input context variations, and in-depth code-level analysis. To bridge these gaps, we introduce DesignBench, a multi-framework, multi-task evaluation benchmark for assessing MLLMs' capabilities in automated front-end engineering. DesignBench encompasses three widely-used UI frameworks (React, Vue, and Angular) alongside vanilla HTML/CSS, and evaluates on three essential front-end tasks (generation, edit, and repair) in real-world development workflows. DesignBench contains 900 webpage samples spanning over 11 topics, 9 edit types, and 6 issue categories, enabling detailed analysis of MLLM performance across multiple dimensions. Our systematic evaluation reveals critical insights into MLLMs' framework-specific limitations, task-related bottlenecks, and performance variations under different conditions, providing guidance for future research in automated front-end development.
+abstract: With the wide and fragmented use of digital technology in construction, a systematic digital transformation (DT)of the industry is needed. The industry's 'synergy development' context, marked by diverse data resources and significant investment, complicates collaboration and burdens the DT process. Notably, the transformation knowledge of DT is often 'buried' within the vast data produced by daily management processes, making it challenging to discern the rules of DT without labor-intensive and time-consuming manual methods. Hence, a well-established data-driven framework for enhancing the DT process to promote whole-life-cycle industry transformation is essential. The large language model (LLM) supercharges the data-driven framework, enabling automated reasoning and precise insights to be derived from extensive datasets, thus fostering a smarter DT framework to manage the DT process. Therefore, this study uses a question-answering system based on an LLM and a localized knowledge base to guide decision-makers in developing engagement strategies that improve DT performance and foster collaboration. This study presents a practical application of LLMs in the DT of construction enterprises, anticipates future applications, and explores their potential use throughout a construction project's transformation lifecycle.
 
 # Summary. An optional shortened abstract.
-summary: We introduce DesignBench, the first comprehensive multi-framework multi-task benchmark for front-end code generation, encompassing React, Vue, and Angular frameworks. Beyond traditional design generation, we pioneer design edit and repair tasks. Through extensive experiments across task complexity, framework compatibility, difficulty levels, contextual factors and in-depth code-level analysis, we reveal primary limitations in current MLLMs for framework-based development and elicit several actionable advice for researchers and developers.
+summary: This research proposes a data-driven framework paradigm, amalgamating 'Large Language Models (LLMs) + construction knowledge databases', modelled on a question-answering system. It leverages domain-specific knowledge to enhance the output produced by LLMs.
 
 tags:
   - LLM
-  - Software Engineering
-  - Benchmark
+  - Digital Transformation
+  - Civil Engineering
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,8 +48,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.arxiv.org/pdf/2506.06251'
-url_code: 'https://github.com/WebPAI/DesignBench'
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -84,5 +81,5 @@ slides: example
 ---
 
 {{% callout note %}}
-The paper is submitted to ASE2025 on May 30, 2025.
+The publication date is scheduled in January, 2025.
 {{% /callout %}}
