@@ -1,5 +1,5 @@
 ---
-title: Robotic-guided Self-help Telerehabilitation in Metaverse for stroke patients
+title: Robotic-guided Self-help Telerehabilitation in Metaverse for Stroke Patients
 date: 2023-04-01
 external_link: https://github.com/hongzicong/MetaRehabilitation
 tags:
