@@ -44,9 +44,9 @@ tags:
 featured: false
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+ - name: Pre-Published version
+   url: https://ira.lib.polyu.edu.hk/handle/10397/114335
 
 url_pdf: ''
 url_code: ''
