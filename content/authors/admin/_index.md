@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: BSc in  Computer Science
+role: MSc in Information Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Computing, PolyU
-    url: https://www.polyu.edu.hk/en/comp/
+  - name: Faculty of Engineering, CUHK
+    url: https://www.cuhk.edu.hk/english/faculties/engineering.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -54,6 +54,10 @@ interests:
   - Graph Neural Network
 
 education:
+  - area: MSc Information Engineering
+    institution: The Chinese University of Hong Kong
+    date_start: 2025-09-01
+
   - area: BSc Computer Science
     institution: The Hong Kong Polytechnic University
     date_start: 2020-09-01
