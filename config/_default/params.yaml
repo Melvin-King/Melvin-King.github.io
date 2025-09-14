@@ -6,7 +6,8 @@
 # Appearance
 appearance:
   mode: system
-  color: indigo
+  color: blue
+  #emerald
 
 # SEO
 marketing:
@@ -14,7 +15,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Academic and life updates from Wang Ming.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -30,17 +31,17 @@ marketing:
 header:
   navbar:
     enable: true
-    block: 'navbar'
+    blox: "navbar"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: "<Melvin-King>"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Wang Ming. Work licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -58,3 +59,31 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+hugo-maps:
+      default:
+        sources:
+          openmaptiles:
+            type: vector
+            url: https://api.maptiler.com/tiles/v3/tiles.json?key=3qUu0lM317K8IchROjbI
+      i3ce2024_map:
+        style: maptiler-3d
+        center: [ -0.127758, 51.507351 ]
+        tilesBoundingBox: [ 0.49956765, 0.3325506204915718, 0.4997617583333333, 0.3323975306107756 ]
+        tilesMinZoom: 0
+        tilesMaxZoom: 15
+        minZoom: 4
+        maxZoom: 24
+        zoom: 14
+        pitch: 45
+        antialias: true
+        markers:
+          - location: [ 40.434870, -80.006240 ]
+            text: 'Conference Spot'
+
+      my_map:
+        zoom: 15
+        center: [ 40.434870, -80.006240 ]
+
+
+
