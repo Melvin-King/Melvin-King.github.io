@@ -1,47 +1,44 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: ''
 date: 2022-10-24
 type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: '6rem'
 
 sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/WangMing_CV.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: beach.jpg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      # Apply a gradient background
+      css_class: hbx-bg-gradient
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
       title: '🔊 Announcements'
       subtitle: ''
       text: |-
-        I am actively seeking opportunities for Ph.D. studies in the fall of 2026, or any research experiences.
+        I am actively seeking opportunities for Ph.D. studies in/after the fall of 2026, or any research experiences.
 
         I'm open to on-site and remote research experiences as well! Don't hesitate to contact me if you found it a good match 😁
     design:
       columns: '1'
-      spacing:
-        padding: [4rem, 0, 2rem, 0]
   - block: collection
     id: papers
     content:
@@ -53,20 +50,16 @@ sections:
     design:
       view: article-grid
       columns: 2
-      spacing:
-        padding: [2rem, 0, 2rem, 0]
   - block: collection
     content:
       title: Publications & Preprints
-      text: ""
+      text: ''
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
       view: citation
-      spacing:
-        padding: [2rem, 0, 2rem, 0]
   - block: collection
     id: talks
     content:
@@ -75,10 +68,7 @@ sections:
         folders:
           - event
     design:
-      view: article-grid
-      columns: 1
-      spacing:
-        padding: [2rem, 0, 2rem, 0]
+      view: card
   - block: collection
     id: news
     content:
@@ -91,20 +81,21 @@ sections:
       count: 5
       # Filter on criteria
       filters:
-        author: ""
-        category: ""
-        tag: ""
+        author: ''
+        category: ''
+        tag: ''
         exclude_featured: false
         exclude_future: false
         exclude_past: false
-        publication_type: ""
+        publication_type: ''
       # Choose how many pages you would like to offset by
       offset: 0
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: card
+      columns: 2
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
@@ -118,7 +109,7 @@ sections:
         <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
         Easily build anything with blocks - no-code required!
-        
+
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
         text: Get Started
@@ -126,6 +117,6 @@ sections:
     design:
       card:
         # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+        css_class: 'bg-primary-700'
+        css_style: ''
 ---
