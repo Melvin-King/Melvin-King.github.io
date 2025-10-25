@@ -51,7 +51,7 @@ profiles:
 interests:
   - Large Language Models
   - Multimodal Learning
-  - Graph Neural Network
+  - Software Engineering
 
 education:
   - area: MSc Information Engineering
@@ -67,6 +67,16 @@ education:
       - Computer Vision (COMP4423), Machine Learning (COMP4432), System Programming (COMP3438), Operating Systems (COMP2432), Data Structures (COMP2011) ...
       - Intro to Statistics (AMA1602), Calculus and linear Algebra (AMA1120), Operations Research Methods (AMA3820) ...
 work:
+  - position: Co-researcher
+    company_name: Department of Computer Science and Engineering, CUHK
+    company_url: 'https://www.cse.cuhk.edu.hk/'
+    company_logo: icons/polyu.svg
+    date_start: 2025-02-01
+    date_end: 2025-09-01
+    summary: |
+      Responsibilities include:
+      - Code intelligence benchmarking for Multi-modal LLMs in various scenarios
+      - Baseline model performance testing and evaluation
   - position: Research Assistant (Full-time)
     company_name: Department of Computing, PolyU
     company_url: 'https://www.polyu.edu.hk/comp/'
@@ -85,7 +95,7 @@ work:
     date_end: '2023-08-31'
     summary: |2-
       Responsibilities include:
-      - Building and maintaining the website
+      - Front-end Programming and Testing
       - Generative AI problem solving
   - position: Research Assistant (Part-time)
     company_name: Department of Building and Real Estate, PolyU

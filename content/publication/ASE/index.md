@@ -84,5 +84,5 @@ slides: example
 ---
 
 {{% callout note %}}
-The paper is submitted to ASE2025 on May 30, 2025.
+The paper is undergoing review in FSE2026.
 {{% /callout %}}
