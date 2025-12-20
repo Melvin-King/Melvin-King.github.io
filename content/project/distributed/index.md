@@ -1,6 +1,6 @@
 ---
 title: "Data vs Pipeline Parallelism in LLM Training"
-date: 2025-05-31
+date: 2025-10-31
 external_link: https://github.com/Melvin-King/distributed_training
 tags:
   - Distributed Training
