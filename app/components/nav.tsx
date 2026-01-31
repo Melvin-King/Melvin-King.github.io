@@ -13,7 +13,7 @@ const navItems = {
   "/blog": { name: "Blog" },
   "/projects": { name: "Projects" },
   "/personal": { name: "Personal" },
-  "/misc": {name: "Misc"}
+  "/misc": { name: "Misc" }
 };
 
 export function Navbar() {
@@ -29,7 +29,14 @@ export function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 dark:bg-[#111010]/95 backdrop-blur py-3 border-b border-gray-200 dark:border-gray-700">
+    <nav className="sticky top-0 z-[999999] bg-white/95 dark:bg-[#111010]/95 backdrop-blur py-3 border-b border-gray-200 dark:border-gray-700">
+      {/* 增强型遮罩层：
+          1. 使用 z-[100] 确保处于最高层级
+          2. bottom-[99%] 稍微重叠一点点 Nav 顶部，防止出现 1px 的缝隙
+          3. h-[200vh] 足够长，应付任何力度的回弹
+      */}
+      <div className="absolute bottom-[99%] left-0 w-full h-[200vh] bg-white dark:bg-[#111010] z-[100] pointer-events-none" />
+
       <div className="flex items-center justify-between max-w-6xl mx-auto px-4 sm:px-[60px] gap-3 sm:gap-4">
         {/* Left side: Sign and Waterloo logo - never shrink */}
         <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
@@ -43,7 +50,7 @@ export function Navbar() {
               className="h-8 w-12 flex-shrink-0"
             />
           </Link>
-          
+
           {/*
           <a
             href="https://uwaterloo.ca/"
@@ -101,7 +108,6 @@ export function Navbar() {
           </button>
           <ThemeSwitch />
           
-          {/* Mobile menu button - only shown on small screens */}
           <button
             type="button"
             onClick={toggleMenu}
