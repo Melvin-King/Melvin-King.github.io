@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, MouseEvent } from "react";
 import CitationCount from "./CitationCount";
 import GitHubStarCount from "./GitHubStarCount";
 import GitHubForkCount from "./GitHubForkCount";
@@ -32,6 +32,15 @@ export default function PublicationItem({
   title, authors, venue, date, image, tag, links, abstract, bibtex, stats
 }: PublicationProps) {
   const [expandedSection, setExpandedSection] = useState<"ABS" | "BIB" | null>(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e: MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
 
   const toggleSection = (section: "ABS" | "BIB") => {
     setExpandedSection(expandedSection === section ? null : section);
@@ -52,8 +61,25 @@ export default function PublicationItem({
   };
 
   return (
-    <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4 mb-3 shadow-sm hover:shadow-md transition-shadow bg-white dark:bg-transparent">
-      <div className="flex items-start space-x-4">
+    <div 
+      onMouseMove={handleMouseMove}
+      className="group relative border border-gray-200 dark:border-gray-700 rounded-lg p-4 mb-3 shadow-sm hover:shadow-md transition-shadow bg-white dark:bg-transparent overflow-hidden"
+      style={{
+        // @ts-ignore
+        "--x": `${mousePos.x}px`,
+        "--y": `${mousePos.y}px`,
+      }}
+    >
+      {/* 动态光晕层 */}
+      <div 
+        className="pointer-events-none absolute -inset-px opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0"
+        style={{
+          background: `radial-gradient(300px circle at var(--x) var(--y), rgba(65, 224, 226, 0.12), transparent 80%)`,
+        }}
+      />
+
+      {/* 内容容器 - 提升 z-index 确保交互正常 */}
+      <div className="relative z-10 flex items-start space-x-4">
         <div className="relative flex-shrink-0 flex flex-col items-start space-y-2 w-20 sm:w-28 sm:mt-1">
             {tag && (
                 <div className="w-full sm:w-auto sm:absolute sm:-top-2 sm:-left-2 sm:z-10 bg-purple-600 text-white text-[10px] px-2 py-1 rounded shadow-sm flex items-center justify-center min-w-[50px]">
@@ -89,17 +115,17 @@ export default function PublicationItem({
           <div className="flex flex-nowrap space-x-2 mb-2 overflow-x-auto no-scrollbar [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <button 
               onClick={() => toggleSection("ABS")} 
-              className={`flex-shrink-0 border text-xs px-2 py-1 rounded transition-all active:scale-95 ${expandedSection === 'ABS' ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800'}`}>
+              className={`flex-shrink-0 border text-xs px-2 py-1 rounded transition-all active:scale-95 z-20 ${expandedSection === 'ABS' ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 bg-white dark:bg-neutral-900'}`}>
               ABS
             </button>
             <button 
               onClick={() => toggleSection("BIB")} 
-              className={`flex-shrink-0 border text-xs px-2 py-1 rounded transition-all active:scale-95 ${expandedSection === 'BIB' ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800'}`}>
+              className={`flex-shrink-0 border text-xs px-2 py-1 rounded transition-all active:scale-95 z-20 ${expandedSection === 'BIB' ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 bg-white dark:bg-neutral-900'}`}>
               BIB
             </button>
-            {links.doi && <a href={links.doi} target="_blank" className="flex-shrink-0 border border-gray-300 dark:border-gray-600 text-xs px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-800">DOI</a>}
-            {links.html && <a href={links.html} target="_blank" className="flex-shrink-0 border border-gray-300 dark:border-gray-600 text-xs px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-800">HTML</a>}
-            {links.video && <a href={links.video} target="_blank" className="flex-shrink-0 border border-gray-300 dark:border-gray-600 text-xs px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-800">VIDEO</a>}
+            {links.doi && <a href={links.doi} target="_blank" className="flex-shrink-0 border border-gray-300 dark:border-gray-600 text-xs px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-800 bg-white dark:bg-neutral-900 z-20">DOI</a>}
+            {links.html && <a href={links.html} target="_blank" className="flex-shrink-0 border border-gray-300 dark:border-gray-600 text-xs px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-800 bg-white dark:bg-neutral-900 z-20">HTML</a>}
+            {links.video && <a href={links.video} target="_blank" className="flex-shrink-0 border border-gray-300 dark:border-gray-600 text-xs px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-800 bg-white dark:bg-neutral-900 z-20">VIDEO</a>}
           </div>
 
           <div className={`grid transition-all duration-300 ease-in-out ${expandedSection ? 'grid-rows-[1fr] opacity-100 mt-3' : 'grid-rows-[0fr] opacity-0'}`}>

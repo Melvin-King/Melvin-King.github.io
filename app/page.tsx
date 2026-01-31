@@ -3,19 +3,23 @@ import { socialLinks } from "./lib/config";
 import VisitorMap from "./components/VisitorMap";
 import Script from "next/script";
 
-import CitationCount from "./components/CitationCount";
-import GitHubStarCount from "./components/GitHubStarCount";
-import GitHubForkCount from "./components/GitHubForkCount";
-
 import PublicationItem from "./components/PublicationItem";
 
 export default function Page() {
   return (
     <>
-      <Script 
-        src="https://elfsightcdn.com/platform.js" 
-        strategy="afterInteractive" 
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-G429F01H2D"
+         strategy="afterInteractive"
       />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-G429F01H2D');
+        `}
+      </Script>
       <HomeHero />
       <section className="mx-auto mt-10 max-w-6xl px-6 md:px-[50px]">
         <div className="mt-8">
