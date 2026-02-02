@@ -2,10 +2,36 @@ import HomeHero from "./components/home-hero";
 import { socialLinks } from "./lib/config";
 import VisitorMap from "./components/VisitorMap";
 import Script from "next/script";
+import { formatDate, getBlogPosts } from "app/lib/posts";
+import Carousel from "app/components/Carousel";
 
 import PublicationItem from "./components/PublicationItem";
 
 export default function Page() {
+  const BlogBlocks = [
+    {
+      image: "/ieee-tem/featured.jpg",
+      title: "My first 1st-authored paper accepted!",
+      link: "/blog/ieee-tem"
+    },
+    {
+      image: "/graduation/featured.jpg",
+      title: "Just graduated from PolyU with a Bachelor's degree in Computer Science!",
+      link: "/blog/graduation"
+    },
+    {
+      image: "/pittsburgh/featured.jpg",
+      title: "Conference travel at Pittsburgh, Penn",
+      link: "/blog/pittsburgh"
+    },
+    {
+      image: "/aws/featured.jpg",
+      title: "Milestone achieved as an Amazon Web Services (AWS) student ambassador",
+      link: "/blog/aws"
+    }
+  ];
+  let allBlogs = getBlogPosts();
+
   return (
     <>
       <Script
@@ -110,6 +136,13 @@ export default function Page() {
         */}
 
         <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4">posts</h2>
+            <Carousel blocks={BlogBlocks} />
+          
+          
+        </div>
+
+        <div className="mt-8">
           <h2 className="text-xl font-bold mb-4">selected publications</h2>
           
           
@@ -201,7 +234,7 @@ export default function Page() {
 
 
         </div>
-        
+
           <div className="mt-8">
             <h2 className="text-xl font-bold mb-4">services</h2>
             <div className="space-y-2">

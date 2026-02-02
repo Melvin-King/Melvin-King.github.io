@@ -5,7 +5,7 @@ import Carousel from "app/components/Carousel";
 
 export const metadata = {
   title: "Blog",
-  description: "Researchfolio Blog",
+  description: "Melvin's Blog",
 };
 
 export default function BlogPosts() {

@@ -8,6 +8,7 @@ import Footer from "./components/footer";
 import { ThemeProvider } from "./components/theme-switch";
 import FloatingDialog from "./components/floating-dialog";
 import { metaData } from "./lib/config";
+import { getBlogPosts } from "app/lib/posts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -55,16 +56,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const allPosts = getBlogPosts().map(post => ({
+    slug: post.slug,
+    content: post.content,
+    metadata: post.metadata
+  }));
+
   return (
     <html lang="en" className="__className_ece556">
       <body className="antialiased flex flex-col items-center justify-center w-full mb-12">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-        >
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <main className="flex-auto min-w-0 flex flex-col w-full transition-colors duration-300">
-            <Navbar />
+            <Navbar allPosts={allPosts} />
             <div className="mt-0 mb-2 w-full">
               {children}
             </div>
