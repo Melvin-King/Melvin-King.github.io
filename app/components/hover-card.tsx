@@ -22,6 +22,15 @@ export default function HoverCard({ name, image, description, href, children }: 
   const triggerRef = useRef<HTMLSpanElement>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  useEffect(() => {
+    const handlePageShow = () => {
+      setIsVisible(false);
+    };
+
+    window.addEventListener("pageshow", handlePageShow);
+    return () => window.removeEventListener("pageshow", handlePageShow);
+  }, []);
+
   const updatePosition = useCallback(() => {
     if (!triggerRef.current || !isVisible) return;
     
@@ -91,6 +100,7 @@ export default function HoverCard({ name, image, description, href, children }: 
       onMouseLeave={() => {
         timeoutRef.current = setTimeout(() => setIsVisible(false), 300);
       }}
+      onClick={() => setIsVisible(true)}
       className="relative inline cursor-help font-medium"
     >
       <Link 
@@ -122,7 +132,11 @@ export default function HoverCard({ name, image, description, href, children }: 
                 <h4 className="text-[15px] font-bold text-neutral-900 dark:text-white leading-tight">{name}</h4>
                 <div className="mt-2 text-[12px] leading-[1.4] text-neutral-600 dark:text-neutral-300 line-clamp-4">{description}</div>
               </div>
-              <Link href={href} className="mt-3 inline-flex items-center text-[13px] font-semibold text-purple-600 dark:text-purple-400 hover:underline self-end">
+              <Link 
+                href={href} 
+                onClick={() => setIsVisible(false)}
+                className="mt-3 inline-flex items-center text-[13px] font-semibold text-purple-600 dark:text-purple-400 hover:underline self-end"
+              >
                 Read more &gt;
               </Link>
             </div>

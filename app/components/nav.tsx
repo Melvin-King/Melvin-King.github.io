@@ -95,7 +95,7 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
                   href={path}
                   className={`text-sm font-medium transition-colors whitespace-nowrap ${
                     isActive
-                      ? "text-gray-900 dark:text-white"
+                      ? "text-[#7c5ede] dark:text-[#41e0e2]"
                       : "text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                   }`}
                 >
@@ -154,7 +154,7 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
                     onClick={closeMenu}
                     className={`text-base font-medium transition-colors py-2 text-center ${
                       isActive
-                        ? "text-gray-900 dark:text-white"
+                        ? "text-[#7c5ede] dark:text-[#41e0e2]"
                         : "text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                     }`}
                   >

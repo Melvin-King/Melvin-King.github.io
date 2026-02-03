@@ -85,6 +85,7 @@ export default function Projects() {
           </Link>
         ))}
       </div>
+      <br /><br /><br /><br /><br />
     </section>
   );
 }

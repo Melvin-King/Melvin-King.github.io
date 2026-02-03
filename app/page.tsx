@@ -47,7 +47,15 @@ export default function Page() {
         `}
       </Script>
       <HomeHero />
-      <section className="mx-auto mt-10 max-w-6xl px-6 md:px-[50px]">
+      <section 
+        className="mx-auto mt-10 max-w-6xl px-6 md:px-[50px] transition-[padding] duration-500 ease-in-out"
+        style={{ 
+          paddingBottom: 'calc(var(--dialog-height, 0px) * (1 - Math.sign(window.innerWidth - 768)))' 
+        }}
+      >
+        <div 
+          className="pb-[var(--dialog-height)] md:pb-0 transition-[padding] duration-500"
+        >
         <div className="mt-8">
           <h2 className="text-xl font-bold mb-4">news</h2>
           <div className="space-y-2">
@@ -261,6 +269,7 @@ export default function Page() {
                 <span className="text-sm ml-4">
                   IEEE Transactions on Engineering Management (IEEE-TEM)
                 </span>
+                <br /><br />
               </div>
             </div>
           </div>
@@ -274,6 +283,7 @@ export default function Page() {
           ></div>
         </div>
         */}
+        </div>
       </section>
     </>
   );

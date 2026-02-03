@@ -13,15 +13,25 @@ export default function FloatingDialog() {
   const router = useRouter();
 
   useEffect(() => {
-    if (pathname !== "/") return;
+    if (pathname !== "/") {
+      document.documentElement.style.setProperty('--dialog-height', '0px');
+      return;
+    }
+    
     const savedDialogId = localStorage.getItem("lastSeenFloatingDialogId");
     if (savedDialogId !== DIALOG_ID) {
       setIsVisible(true);
+      // padding displayed on mobile when floating dialog is not closed
+      document.documentElement.style.setProperty('--dialog-height', '140px');
+    } else {
+      document.documentElement.style.setProperty('--dialog-height', '0px');
     }
   }, [pathname]);
 
   const handleClose = () => {
     setIsClosing(true);
+    document.documentElement.style.setProperty('--dialog-height', '0px');
+    
     setTimeout(() => {
       setIsVisible(false);
       localStorage.setItem("lastSeenFloatingDialogId", DIALOG_ID);
