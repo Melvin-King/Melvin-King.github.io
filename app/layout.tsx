@@ -71,7 +71,7 @@ export default function RootLayout({
             <div className="mt-0 mb-2 w-full">
               {children}
             </div>
-            <div className="border-t border-gray-200 dark:border-gray-700 mt-6 mb-4 max-w-6xl w-full mx-auto px-[60px]" />
+            {/*<div className="border-t border-gray-200 dark:border-gray-700 mt-6 mb-4 max-w-6xl w-full mx-auto px-[60px]" />*/}
             <div className="max-w-6xl w-full mx-auto px-[60px]">
               <Footer />
             </div>

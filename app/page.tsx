@@ -138,6 +138,22 @@ export default function Page() {
         <div className="mt-8">
           <h2 className="text-xl font-bold mb-4">posts</h2>
             <Carousel blocks={BlogBlocks} />
+          <a 
+            href="/blog" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="group flex items-center text-sm font-medium text-purple-600 dark:text-purple-400 hover:text-purple-700 transition-colors"
+          >
+            View all posts
+            <svg 
+              className="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform" 
+              fill="none" 
+              viewBox="0 0 24 24" 
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
           
           
         </div>

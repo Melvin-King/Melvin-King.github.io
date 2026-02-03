@@ -84,7 +84,7 @@ export default function Carousel({ blocks: initialBlocks }: CarouselProps) {
         </>
       )}
 
-      <div ref={scrollRef} onScroll={() => { if (!isMoving) handleLoop(); }} className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory py-4" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
+      <div ref={scrollRef} onScroll={() => { if (!isMoving) handleLoop(); }} className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory py-2" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
         {blocks.map((block, index) => (
           <div key={index} className="flex-shrink-0 snap-start w-full md:w-1/3 p-3">
             <Link

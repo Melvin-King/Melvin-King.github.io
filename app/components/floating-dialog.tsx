@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 
-const DIALOG_ID = "2026-01-31-v1";
+const DIALOG_ID = "2026-02-03-v1";
 
 export default function FloatingDialog() {
   const [isVisible, setIsVisible] = useState(false);
@@ -50,12 +50,12 @@ export default function FloatingDialog() {
                      rounded-t-2xl sm:rounded-2xl sm:mb-6 sm:border"
         >
           <div className="text-sm text-gray-800 font-medium leading-relaxed">
-            Do reach out to collaborate if you find my publications aligned with yours!
+            Reach out to collaborate if you find my works aligned with your interests!
           </div>
 
           <div className="flex gap-2">
             <button onClick={handleNavigation} className="flex-1 px-4 py-2.5 bg-[#41e0e2] text-white text-xs font-bold rounded-xl active:scale-95 transition-transform">
-              See my works
+              See my papers
             </button>
             <button onClick={handleClose} className="flex-1 px-4 py-2.5 bg-gray-200/50 text-gray-700 text-xs font-bold rounded-xl hover:bg-gray-200/80 transition-colors">
               Dismiss

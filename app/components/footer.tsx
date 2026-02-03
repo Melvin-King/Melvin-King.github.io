@@ -42,7 +42,6 @@ function SocialLinks() {
 
 export default function Footer() {
   return (
-    /* isolate 确保内部 absolute 元素在移动端回弹时不会产生独立的渲染层 Bug */
     <footer className="fixed bottom-0 left-0 w-full z-[9999999] isolate">
       <div className="relative">
         <FloatingDialog />

@@ -78,7 +78,22 @@ export default function HomeHero() {
           <div className="grid items-center gap-10 md:gap-8 md:grid-cols-[1fr_auto]">
             <div className="order-2 text-white md:order-1 w-full md:max-w-2xl">
               <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
-                I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. My current research focus on understanding code inteligence of Multi-modal Large Language Models (MLLMs) in multimodal scenarios, and my interests revolve around Agentic AI, AI4SE & SE4AI, Social Network Analysis, Graph Neural Networks, and more! I have experience in areas such as Federated Learning and Temporal GNN in recommendation networks. My existing research have also made contributions to AI and strategic practices in engineering management.
+                I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. Prior to and during my Master's studies, I worked closely with PhD candidates in the ARISE lab under the supervision of {" "}
+                <HoverCard
+                  name="Michael R. Lyu"
+                  image="michael.jpg" 
+                  href="https://www.cse.cuhk.edu.hk/lyu/home"
+                  description={
+                    <>
+                      Professor of Computer Science and Engineering, The Chinese University of Hong Kong<br />
+                      Fellow of IEEE, ACM, AAAS, and Croucher Senior Research.
+                      Director of the <u>ARISE Lab</u>.
+                    </>
+                  }
+                >
+                  Prof. Michael R. Lyu
+                </HoverCard>
+                . My recent research focus on understanding code inteligence of Multi-modal Large Language Models (MLLMs) in multimodal scenarios, and my interests revolve around Agentic AI, AI4SE & SE4AI, Social Network Analysis, and Graph Neural Networks. My existing research have also contributed to AI and strategic practices in engineering management.
               </p>
 
               <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">

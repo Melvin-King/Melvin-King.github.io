@@ -19,7 +19,6 @@ export default function GitHubForkCount({ owner, repo }: GitHubProps) {
         if (!response.ok) throw new Error("Network response was not ok");
         const data = await response.json();
         
-        // 同样逻辑：如果 fork 数大于 0 才显示
         if (data && data.forks_count > 0) {
           setForks(data.forks_count);
         }
