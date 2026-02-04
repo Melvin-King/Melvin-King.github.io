@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 
-const DIALOG_ID = "2026-02-03-v1";
+const DIALOG_ID = "2026-02-05-v1";
 
 export default function FloatingDialog() {
   const [isVisible, setIsVisible] = useState(false);

@@ -69,7 +69,7 @@ export function SearchOverlay({ isOpen, onClose, allPosts = [] }: {
   if (!hasMounted) return null;
 
   return (
-    <div className={`fixed inset-0 z-[999998] transition-all duration-500 ${isOpen ? "visible" : "invisible delay-500"}`}>
+    <div className={`fixed inset-0 z-[100000] transition-all duration-500 ${isOpen ? "visible" : "invisible delay-500"}`}>
       <div 
         className={`absolute inset-0 transition-all duration-500 ease-in-out ${isOpen ? "bg-white/70 dark:bg-[#111010]/70 backdrop-blur-xl opacity-100" : "bg-white/0 dark:bg-[#111010]/0 backdrop-blur-none opacity-0"}`}
         onClick={onClose}

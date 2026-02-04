@@ -44,7 +44,7 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
         allPosts={allPosts}
       />
 
-      <nav className="sticky top-0 z-[999999] bg-white/95 dark:bg-[#111010]/95 backdrop-blur py-3 border-b border-gray-200 dark:border-gray-700">
+      <nav className="sticky top-0 z-[100001] bg-white/95 dark:bg-[#111010]/95 backdrop-blur py-3 border-b border-gray-200 dark:border-gray-700">
         <div className="absolute bottom-[99%] left-0 w-full h-[200vh] bg-white dark:bg-[#111010] z-[100] pointer-events-none" />
 
         <div className="flex items-center justify-between max-w-6xl mx-auto px-4 sm:px-[60px] gap-3 sm:gap-4">

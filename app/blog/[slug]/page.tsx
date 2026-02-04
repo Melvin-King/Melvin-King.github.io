@@ -117,7 +117,7 @@ export default async function Blog({ params }) {
               <span className="text-neutral-300">•</span>
               <div className="flex items-center gap-2 font-medium text-neutral-900 dark:text-neutral-100">
                 <Image src="/author/profile.PNG" alt="Ming Melvin Wang" width={24} height={24} className="rounded-full object-cover" />
-                <span>Ming Melvin Wang</span>
+                <span>{owner.name}</span>
               </div>
               <span className="text-neutral-300">•</span>
               <div>{readingTime} min read</div>

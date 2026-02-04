@@ -9,7 +9,7 @@ import {
   FaXTwitter,
   FaGoogleScholar,
 } from "react-icons/fa6";
-import { socialLinks } from "../lib/config";
+import { metaData, owner, education, socialLinks } from "app/lib/config";
 import { FaGraduationCap, FaCode } from "react-icons/fa6";
 import { SiArxiv, SiOrcid } from "react-icons/si";
 
@@ -151,15 +151,15 @@ export default function HomeHero() {
                     <li className="flex gap-3 items-start">
                       <FaGraduationCap className="h-6 w-6 mt-1 opacity-90" />
                       <div>
-                        <div className="font-medium">MSc Information Engineering</div>
-                        <div className="text-white/70 text-xs">The Chinese University of Hong Kong</div>
+                        <div className="font-medium">{education.mscDegree}</div>
+                        <div className="text-white/70 text-xs">{education.mscSchool}</div>
                       </div>
                     </li>
                     <li className="flex gap-3 items-start">
                       <FaGraduationCap className="h-6 w-6 mt-1 opacity-90" />
                       <div>
-                        <div className="font-medium">BSc Computer Science</div>
-                        <div className="text-white/70 text-xs">The Hong Kong Polytechnic University</div>
+                        <div className="font-medium">{education.bscDegree}</div>
+                        <div className="text-white/70 text-xs">{education.bscSchool}</div>
                       </div>
                     </li>
                   </ul>
@@ -172,13 +172,13 @@ export default function HomeHero() {
                 <Image
                   src="/author/profile.PNG"
                   alt="Profile photo"
-                  width={160}
-                  height={160}
-                  className="h-[160px] w-[160px] rounded-lg border border-white/20 object-cover rotate-[3deg]"
+                  width={170}
+                  height={170}
+                  className="h-[170px] w-[170px] rounded-lg border border-white/20 object-cover rotate-[3deg]"
                   unoptimized
                   priority
                 />
-                <div className="text-lg font-semibold">Ming Melvin Wang</div>
+                <div className="text-lg font-semibold">{owner.name}</div>
                 
                 <div className="flex items-center justify-center gap-[1px] text-sm text-white/90">
                   <span>cd</span>
@@ -193,7 +193,7 @@ export default function HomeHero() {
                 </div>
 
 
-                <div className="text-xs text-white/85">MSc in Information Engineering<br />The Chinese University of Hong Kong</div>
+                <div className="text-xs text-white/85">{education.mscDegree}<br />{education.mscSchool}</div>
               </div>
             </div>
           </div>

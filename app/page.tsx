@@ -46,6 +46,10 @@ export default function Page() {
           gtag('config', 'G-G429F01H2D');
         `}
       </Script>
+      <Script 
+        src="https://elfsightcdn.com/platform.js" 
+        strategy="afterInteractive" 
+      />
       <HomeHero />
       <section 
         className="mx-auto mt-10 max-w-6xl px-6 md:px-[50px] transition-[padding] duration-500 ease-in-out"
@@ -275,14 +279,15 @@ export default function Page() {
           </div>
         
         {/*
-        <div className="mt-8">
-          <h2 className="text-xl font-bold mb-4">office address</h2>
-          <div 
-            className="elfsight-app-fd5d9fb8-51bf-48aa-9435-84dac08007ef" 
-            data-elfsight-app-lazy 
-          ></div>
-        </div>
+          <div className="mt-8">
+            <h2 className="text-xl font-bold mb-4">office address</h2>
+            <div 
+              className="elfsight-app-fd5d9fb8-51bf-48aa-9435-84dac08007ef" 
+              data-elfsight-app-lazy 
+            ></div>
+          </div>
         */}
+
         </div>
       </section>
     </>

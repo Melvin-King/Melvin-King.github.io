@@ -4,6 +4,10 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+html, body {
+  overscroll-behavior-y: none;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;

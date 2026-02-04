@@ -42,7 +42,7 @@ function SocialLinks() {
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 left-0 w-full z-[9999999] isolate">
+    <footer className="fixed bottom-0 left-0 w-full z-[100001] isolate">
       <div className="relative">
         <FloatingDialog />
       </div>
