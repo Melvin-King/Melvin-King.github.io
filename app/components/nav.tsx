@@ -110,13 +110,13 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
               type="button"
               onClick={toggleSearch}
               aria-label="Search"
-              className={`inline-flex items-center justify-center h-8 w-8 rounded-md transition flex-shrink-0 ${
+              className={`inline-flex items-center justify-center h-10 w-10 md:h-8 md:w-8 rounded-md transition flex-shrink-0 ${
                 isSearchOpen 
                   ? "bg-gray-100 dark:bg-white/10 text-[#41e0e2]" 
                   : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/10"
               }`}
             >
-              <FaMagnifyingGlass className="h-4 w-4" />
+              <FaMagnifyingGlass className="h-5 w-5 md:h-4 md:w-4" />
             </button>
             
             <ThemeSwitch />
@@ -125,12 +125,12 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
               type="button"
               onClick={toggleMenu}
               aria-label="Toggle menu"
-              className="md:hidden inline-flex items-center justify-center h-8 w-8 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/10 transition flex-shrink-0"
+              className="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/10 transition flex-shrink-0"
             >
               {isMenuOpen ? (
-                <FaTimes className="h-5 w-5" />
+                <FaTimes className="h-6 w-6" /> 
               ) : (
-                <FaBars className="h-5 w-5" />
+                <FaBars className="h-6 w-6" />
               )}
             </button>
           </div>

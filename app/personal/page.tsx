@@ -73,7 +73,6 @@ export default function PersonalPage() {
       
       {/* --- Melvin's Kitchen Section --- */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mb-24 items-stretch">
-        {/* 左侧文字：决定高度的主导方 */}
         <div className="flex flex-col justify-start">
           <div className="mb-6">
             <h2 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -97,15 +96,13 @@ export default function PersonalPage() {
           </div>
         </div>
 
-        {/* 右侧图片墙：高度跟随者 */}
         <div className="w-full h-full min-h-[200px] mt-8 md:mt-0">
           <PhotoWall photos={kitchenPhotos} />
         </div>
       </div>
 
-      {/* --- Social Responsibilities Section --- */}
+      {/* --- Stjh Section --- */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-stretch">
-        {/* 左侧文字 */}
         <div className="flex flex-col justify-start">
           <div className="mb-6">
             <h2 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -126,8 +123,7 @@ export default function PersonalPage() {
             </p>
           </div>
         </div>
-
-        {/* 右侧图片墙 */}
+        
         <div className="w-full h-full min-h-[200px] mt-8 md:mt-0">
           <PhotoWall photos={StjohnPhotos} />
         </div>

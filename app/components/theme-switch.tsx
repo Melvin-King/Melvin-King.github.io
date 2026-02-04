@@ -70,12 +70,14 @@ export const ThemeSwitch: React.FC = () => {
     reflectPreference(newTheme);
   };
 
-  if (!mounted) {
+if (!mounted) {
     return (
-      <FaCircleHalfStroke
-        className="h-[14px] w-[14px] text-[#1c1c1c]"
-        aria-hidden="true"
-      />
+      <div className="flex items-center justify-center h-10 w-10 md:h-8 md:w-8">
+        <FaCircleHalfStroke
+          className="h-5 w-5 md:h-[14px] md:w-[14px] text-[#1c1c1c]"
+          aria-hidden="true"
+        />
+      </div>
     );
   }
 
@@ -84,10 +86,10 @@ export const ThemeSwitch: React.FC = () => {
       id="theme-toggle"
       aria-label={`${currentTheme} mode`}
       onClick={toggleTheme}
-      className="flex items-center justify-center transition-opacity duration-300 hover:opacity-90 cursor-pointer"
+      className="flex items-center justify-center h-10 w-10 md:h-8 md:w-8 rounded-md transition-all duration-300 hover:bg-gray-100 dark:hover:bg-white/10 cursor-pointer flex-shrink-0"
     >
       <FaCircleHalfStroke
-        className={`h-[14px] w-[14px] ${
+        className={`h-5 w-5 md:h-[14px] md:w-[14px] transition-colors ${
           currentTheme === "dark" ? "text-[#D4D4D4]" : "text-[#1c1c1c]"
         }`}
       />
