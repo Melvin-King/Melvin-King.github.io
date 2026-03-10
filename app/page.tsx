@@ -27,7 +27,7 @@ const EXPERIENCES_DATA: ExperienceProps[] = [
     affiliation: "Department of Computer Science and Engineering, The Chinese University of Hong Kong",
     period: "Mar 2025 – Present",
     location: "Hong Kong",
-    logo: "/logos/CUHK.png",
+    logo: "/logos/cuhk.png",
     description: [
       "Worked on analyzing code intelligence of Multi-modal LLMs in various front-end programming scenarios, contributing to the paper Designbench",
       "Proposed a multi-framework, multi-task evaluation benchmark for assessing MLLMs' capabilities in automated front-end engineering",
