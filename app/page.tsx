@@ -7,6 +7,48 @@ import Carousel from "app/components/Carousel";
 
 import PublicationItem from "./components/PublicationItem";
 
+import ExperienceItem, { ExperienceProps } from "./components/ExperienceItem";
+
+const EXPERIENCES_DATA: ExperienceProps[] = [
+  {
+    occupation: "Research Intern",
+    affiliation: "Department of Electrical and Computer Engineering, University of Waterloo",
+    period: "Jan 2026 – Present",
+    location: "Remote",
+    logo: "/logos/loo.png",
+    description: [
+      "Working on exploring the cost structure of MLLM educational deployment in block-based programming",
+      "Proposing a cost-aware multimodal repair pipeline for block-based programming that uses a cheap runtime probe to estimate repair difficulty and schedule the optimal repair option"
+    ],
+    advisor: { name: "Jialu Zhang", occupation: "Assistant Professor, University of Waterloo", url: "https://jialuzhang.netlify.app/"}
+  },
+  {
+    occupation: "Co-researcher",
+    affiliation: "Department of Computer Science and Engineering, The Chinese University of Hong Kong",
+    period: "Mar 2025 – Present",
+    location: "Hong Kong",
+    logo: "/logos/CUHK.png",
+    description: [
+      "Worked on analyzing code intelligence of Multi-modal LLMs in various front-end programming scenarios, contributing to the paper Designbench",
+      "Proposed a multi-framework, multi-task evaluation benchmark for assessing MLLMs' capabilities in automated front-end engineering",
+      "Data Collection and Processing, Metrics, Evaluation, Benchmarking"
+    ],
+    advisor: { name: "Michael R. Lyu", occupation: "Professor, The Chinese University of Hong Kong", url: "https://www.cse.cuhk.edu.hk/lyu/home"}
+  },
+  {
+    occupation: "Research Assistant",
+    affiliation: "Department of Building and Real Estate, The Hong Kong Polytechnic University",
+    period: "Sep 2024 – Present",
+    location: "Hong Kong",
+    logo: "/logos/polyu.png",
+    description: [
+      "Worked on LLM-driven Online Social Network Analysis for Mega infrastructure Project Stakeholder Analysis. Published a Journal paper in IEEE-TEM as the 1st author; co-authored a conference paper, which proposed a LLM-based data-driven framework for digital transformation in civil engineering",
+      "Data Retrieval, Large Language Model, Social Network Analysis, Paper Completion and revision"
+    ],
+    advisor: { name: "Jin Xue", occupation: "Lecturer, The University of Sydney", url: "https://profiles.sydney.edu.au/jin.xue"}
+  },
+];
+
 export default function Page() {
   const BlogBlocks = [
     {
@@ -261,6 +303,18 @@ export default function Page() {
 
 
 
+        </div>
+
+        <div className="mt-8">
+        <h2 className="text-xl font-bold mb-4">experiences</h2>
+          <div className="flex flex-col">
+            {EXPERIENCES_DATA.map((exp, index) => (
+              <ExperienceItem
+                key={`${exp.affiliation}-${index}`} 
+                {...exp} 
+              />
+            ))}
+          </div>
         </div>
 
           <div className="mt-8">
