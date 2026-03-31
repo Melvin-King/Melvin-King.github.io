@@ -78,7 +78,12 @@ export default function HomeHero() {
           <div className="grid items-center gap-10 md:gap-8 md:grid-cols-[1fr_auto]">
             <div className="order-2 text-white md:order-1 w-full md:max-w-2xl">
               <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
-                I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. Prior to and during my Master's studies, I worked closely with PhD candidates in the ARISE lab under the supervision of {" "}
+                Hello, and welcome to Melvin's academic website! 😊
+                <br />
+                <br />
+              </p>
+              <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
+                I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. Prior to and during my Master's studies, I worked closely with PhD candidates under the supervision of {" "}
                 <HoverCard
                   name="Michael R. Lyu"
                   image="michael.jpg" 
@@ -93,27 +98,22 @@ export default function HomeHero() {
                 >
                   Prof. Michael R. Lyu
                 </HoverCard>
-                . My recent research focus on understanding code inteligence of Multi-modal Large Language Models (MLLMs) in multimodal scenarios, and my interests revolve around Agentic AI, AI4SE & SE4AI, Social Network Analysis, and Graph Neural Networks. My existing research have also contributed to AI and strategic practices in engineering management.
+                . My recent research focuses on human-centric programming, such as the empirical investigation of developer tools and programming workflows to improve usability, efficiency, and learning outcomes. My interests focus on enhancing the coding experience through heuristic debugging assistance and code-repair tools for programmers and students. My existing research has also contributed to digital transformation in urban planning and management.
               </p>
 
               <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
                  <br />
                 <strong>I am actively seeking opportunities for Ph.D. studies in the fall of 2026!</strong>
               </p>
-
+              
+              
               <div className="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-3">
                 <div className="flex flex-wrap items-center justify-center gap-2 order-1">
-                  <SocialIconLink href={socialLinks.twitter} label="Twitter / X">
-                    <FaXTwitter className="h-5 w-5" />
-                  </SocialIconLink>
                   <SocialIconLink href={socialLinks.github} label="GitHub">
                     <FaGithub className="h-5 w-5" />
                   </SocialIconLink>
                   <SocialIconLink href={socialLinks.googlescholar} label="Google Scholar">
                     <FaGoogleScholar className="h-5 w-5" />
-                  </SocialIconLink>
-                  <SocialIconLink href={socialLinks.linkedin} label="LinkedIn">
-                    <FaLinkedinIn className="h-5 w-5" />
                   </SocialIconLink>
                   <SocialIconLink href={socialLinks.arxiv} label="ArXiv">
                     <SiArxiv className="h-5 w-5" />
@@ -122,7 +122,7 @@ export default function HomeHero() {
                     <SiOrcid className="h-5 w-5" />
                   </SocialIconLink>
                 </div>
-
+          {/*
                 <Link
                   href="/author/CV.pdf"
                   className="inline-flex h-9 items-center justify-center rounded-md px-4 text-sm font-medium transition 
@@ -132,16 +132,17 @@ export default function HomeHero() {
                     order-2"
                 >
                   Download CV
-                </Link>
+                </Link>*/}
               </div>
+              
 
               <div className="mt-10 grid gap-10 sm:grid-cols-3">
                 <div>
                   <h2 className="text-xl font-semibold mb-4">Interests</h2>
                   <ul className="space-y-4 text-sm text-white/90">
-                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Multimodal LLM</span></li>
                     <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Software Engineering</span></li>
-                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>AI4SE</span></li>
+                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Empirical Methods</span></li>
+                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Programming Education</span></li>
                   </ul>
                 </div>
 

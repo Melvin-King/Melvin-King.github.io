@@ -12,7 +12,7 @@ export default function BlogPosts() {
   const BlogBlocks = [
     {
       image: "/ieee-tem/featured.jpg",
-      title: "My first 1st-authored paper accepted!",
+      title: "My undergraduate work accepted!",
       link: "/blog/ieee-tem"
     },
     {

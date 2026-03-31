@@ -10,6 +10,7 @@ import PublicationItem from "./components/PublicationItem";
 import ExperienceItem, { ExperienceProps } from "./components/ExperienceItem";
 
 const EXPERIENCES_DATA: ExperienceProps[] = [
+  /*
   {
     occupation: "Research Intern",
     affiliation: "Department of Electrical and Computer Engineering, University of Waterloo",
@@ -22,6 +23,7 @@ const EXPERIENCES_DATA: ExperienceProps[] = [
     ],
     advisor: { name: "Jialu Zhang", occupation: "Assistant Professor, University of Waterloo", url: "https://jialuzhang.netlify.app/"}
   },
+  */
   {
     occupation: "Co-researcher",
     affiliation: "Department of Computer Science and Engineering, The Chinese University of Hong Kong",
@@ -29,9 +31,9 @@ const EXPERIENCES_DATA: ExperienceProps[] = [
     location: "Hong Kong",
     logo: "/logos/cuhk.png",
     description: [
-      "Worked on analyzing code intelligence of Multi-modal LLMs in various front-end programming scenarios, contributing to the paper Designbench",
-      "Proposed a multi-framework, multi-task evaluation benchmark for assessing MLLMs' capabilities in automated front-end engineering",
-      "Data Collection and Processing, Metrics, Evaluation, Benchmarking"
+      "Worked on diverse task Analysis for front-end code development, contributing to Designbench",
+      "Proposed a multi-framework, multi-task evaluation benchmark for assessing heurstic front-end programming",
+      "Data Preparation and Processing, Design of Metrics, Evaluation"
     ],
     advisor: { name: "Michael R. Lyu", occupation: "Professor, The Chinese University of Hong Kong", url: "https://www.cse.cuhk.edu.hk/lyu/home"}
   },
@@ -42,8 +44,8 @@ const EXPERIENCES_DATA: ExperienceProps[] = [
     location: "Hong Kong",
     logo: "/logos/polyu.png",
     description: [
-      "Worked on LLM-driven Online Social Network Analysis for Mega infrastructure Project Stakeholder Analysis. Published a Journal paper in IEEE-TEM as the 1st author; co-authored a conference paper, which proposed a LLM-based data-driven framework for digital transformation in civil engineering",
-      "Data Retrieval, Large Language Model, Social Network Analysis, Paper Completion and revision"
+      "Worked on user Interaction studies for urban project stakeholder analysis, aiming to enhance the transparent communication between stakeholders, project teams and the public.",
+      "Urban planning, Engineering Management, Natrual Language Processing, Social Network Analysis"
     ],
     advisor: { name: "Jin Xue", occupation: "Lecturer, The University of Sydney", url: "https://profiles.sydney.edu.au/jin.xue"}
   },
@@ -53,7 +55,7 @@ export default function Page() {
   const BlogBlocks = [
     {
       image: "/ieee-tem/featured.jpg",
-      title: "My first 1st-authored paper accepted!",
+      title: "My undergraduate work is accepted!",
       link: "/blog/ieee-tem"
     },
     {
@@ -133,7 +135,7 @@ export default function Page() {
               <span className="text-sm text-gray-600 dark:text-gray-400 w-24 flex-shrink-0">
                 Aug 5, 2024
               </span>
-              <span className="text-sm ml-4">One conference paper presented at i3CE2024, held by Carneige Mellon University! 💬</span>
+              <span className="text-sm ml-4">Excited to attend ASCE Comuting in Civil Engineering, held by Carneige Mellon University! 💬</span>
             </div>
           </div>
         </div>
@@ -317,20 +319,6 @@ export default function Page() {
           </div>
         </div>
 
-          <div className="mt-8">
-            <h2 className="text-xl font-bold mb-4">services</h2>
-            <div className="space-y-2">
-              <div className="flex">
-                <span className="text-sm text-gray-600 dark:text-gray-400 w-24 flex-shrink-0">
-                  Reviewer
-                </span>
-                <span className="text-sm ml-4">
-                  IEEE Transactions on Engineering Management (IEEE-TEM)
-                </span>
-                <br /><br />
-              </div>
-            </div>
-          </div>
         
         {/*
           <div className="mt-8">
