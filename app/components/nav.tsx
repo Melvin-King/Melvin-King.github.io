@@ -67,7 +67,7 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
               className="flex items-center flex-shrink-0"
             >
               <Image
-                src="/pennant.png"
+                src="/pennant.PNG"
                 alt="UofA"
                 width={200}
                 height={20}
@@ -75,7 +75,7 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
                 className="h-6 w-auto block dark:hidden max-w-[140px] sm:max-w-none"
               />
               <Image
-                src="/pennant.png"
+                src="/pennant.PNG"
                 alt="UofA"
                 width={200}
                 height={20}
