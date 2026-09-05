@@ -53,8 +53,8 @@ export default async function Blog({ params }) {
               </div>
               <div className="text-center mb-6">
                 <h2 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 leading-tight">{owner.name}</h2>
-                <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-2 leading-snug">{education.mscDegree}</p>
-                <p className="text-[10px] text-neutral-500 mt-1">{education.mscSchool}</p>
+                <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-2 leading-snug">{education.phdDegree}</p>
+                <p className="text-[10px] text-neutral-500 mt-1">{education.phdSchool}</p>
               </div>
               <div className="flex justify-center items-center gap-3.5 mb-3 text-neutral-600 dark:text-neutral-400">
                 <a href={socialLinks.twitter} target="_blank" className="hover:text-black dark:hover:text-white transition-colors"><FaXTwitter size={16} /></a>

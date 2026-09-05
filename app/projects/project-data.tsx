@@ -9,7 +9,6 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  /*
   {
     title: "Data vs Pipeline Parallelism in LLM Training",
     year: 2025,
@@ -19,9 +18,6 @@ export const projects: Project[] = [
     image: "/projects/llm-parallel.png", // 确保图片放在 public 文件夹下
     linkText: "Github",
   },
-  */
-  
-  
   {
     title: "DesignBench: A Multi-framework Multi-task Benchmark for Front-end Code Generation",
     year: 2025,
@@ -31,7 +27,6 @@ export const projects: Project[] = [
     image: "/projects/designbench.png", // 确保图片放在 public 文件夹下
     linkText: "Paper page",
   },
-  /*
   {
     title: "Email Application with PGP Encryption",
     year: 2023,
@@ -45,12 +40,11 @@ export const projects: Project[] = [
     title: "Search Engine Project with Hybrid Information Retrieval Models",
     year: 2023,
     month: "Dec",
-    description: "The search engine course project leverages VSM, LSI, and an innovative Boolean + VSM hybrid approach to improve retrieval efficiency, precision, and recall.",
+    description: "The search engine project leverages VSM, LSI, and an innovative Boolean + VSM hybrid approach to improve retrieval efficiency, precision, and recall.",
     url: "https://github.com/jasonlyuchina/COMP4133_GrpB",
     image: "/projects/retrieval.png", // 确保图片放在 public 文件夹下
     linkText: "Github",
   },
-  */
   {
     title: "Robotic-guided Self-help Telerehabilitation in Metaverse for Stroke Patients",
     year: 2023,

@@ -11,8 +11,13 @@ export const metadata = {
 export default function BlogPosts() {
   const BlogBlocks = [
     {
+      image: "/uofa/ucommons.jpg",
+      title: "Joining the University of Alberta as a PhD student",
+      link: "/blog/uofa"
+    },
+    {
       image: "/ieee-tem/featured.jpg",
-      title: "My undergraduate work accepted!",
+      title: "My first 1st-authored paper accepted!",
       link: "/blog/ieee-tem"
     },
     {

@@ -22,8 +22,8 @@ export const socialLinks = {
 };
 
 export const education = {
-  phdDegree: "",
-  phdSchool: "",
+  phdDegree: "PhD Student in Computing Science",
+  phdSchool: "University of Alberta",
   mscDegree: "MSc Information Engineering",
   mscSchool: "The Chinese University of Hong Kong",
   bscDegree: "BSc Computer Science",

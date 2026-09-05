@@ -112,9 +112,9 @@ export default function PersonalPage() {
           </div>
           <div className="text-gray-600 dark:text-gray-400 leading-relaxed space-y-4">
             <p>
-              Since 2024, I have been a member of the Hong Kong St. John Ambulance 
-              Brigade. It's more than just a volunteer role; it's a commitment 
-              to the well-being of our society.
+              I was a member of the Hong Kong St. John Ambulance 
+              Brigade from 2024 to 2026. It was more than just a volunteer role; it was a commitment 
+              to the well-being of the society.
             </p>
             <p>
               During my service, I take the compulsory annual re-examinations for first aid & AED provider examinations held by Hong Kong St. John Ambulance. 

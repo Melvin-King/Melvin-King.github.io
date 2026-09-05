@@ -50,7 +50,7 @@ export default function Footer() {
       <div className="bg-black/85 dark:bg-white/85 backdrop-blur-lg border-t border-white/5 dark:border-black/10 text-white dark:text-black transition-colors duration-300">
         <div className="mx-auto max-w-6xl px-6 md:px-[50px] py-2 flex justify-between items-center">
           <small className="text-[12px] font-light tracking-wide opacity-90 dark:opacity-100">
-            © {YEAR} Ming Wang. <span className="opacity-50 dark:opacity-40 ml-2">Last updated on Jan 31.</span>
+            © {YEAR} Ming Wang. <span className="opacity-50 dark:opacity-40 ml-2">Last updated on Sep 1.</span>
           </small>
           <SocialLinks />
         </div>

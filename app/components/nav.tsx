@@ -59,31 +59,30 @@ export function Navbar({ allPosts = [] }: { allPosts?: any[] }) {
                 className="h-8 w-12 flex-shrink-0"
               />
             </Link>
-            {/*
+            
             <a
-              href="https://uwaterloo.ca/"
+              href="https://www.ualberta.ca/en/index.html"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center flex-shrink-0"
             >
               <Image
-                src="/waterloo_light.png"
-                alt="University of Waterloo"
-                width={240}
+                src="/pennant.png"
+                alt="UofA"
+                width={200}
                 height={20}
                 priority
                 className="h-6 w-auto block dark:hidden max-w-[140px] sm:max-w-none"
               />
               <Image
-                src="/waterloo_dark.png"
-                alt="University of Waterloo"
-                width={240}
+                src="/pennant.png"
+                alt="UofA"
+                width={200}
                 height={20}
                 priority
                 className="h-6 w-auto hidden dark:block max-w-[140px] sm:max-w-none"
               />
             </a>
-            */}
           </div>
 
           <div className="hidden md:flex items-center gap-8 flex-shrink-0">

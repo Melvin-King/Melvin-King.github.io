@@ -78,12 +78,20 @@ export default function HomeHero() {
           <div className="grid items-center gap-10 md:gap-8 md:grid-cols-[1fr_auto]">
             <div className="order-2 text-white md:order-1 w-full md:max-w-2xl">
               <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
-                Hello, and welcome to Melvin's academic website! 😊
-                <br />
-                <br />
-              </p>
-              <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
-                I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. Prior to and during my Master's studies, I worked closely with PhD candidates under the supervision of {" "}
+                I'm currently pursuing a PhD in Computing Science at the University of Alberta, Edmonton, as a member of the {" "}
+                <HoverCard
+                  name="U-A-Goose"
+                  image="coding_goose.png" 
+                  href="https://u-a-goose.github.io/"
+                  description={
+                    <>
+                      U-A-Goose studies trustworthy software engineering for the AI era, with a particular focus on large language models for code, AI security and privacy, and efficient and sustainable AI systems.
+                    </>
+                  }
+                >
+                  U-A-Goose Lab
+                </HoverCard>
+                . I received my B.Sc. in Computer Science from The Hong Kong Polytechnic University. Prior to and during my Master's studies, I worked closely with PhD candidates in the ARISE lab under the supervision of {" "}
                 <HoverCard
                   name="Michael R. Lyu"
                   image="michael.jpg" 
@@ -98,22 +106,27 @@ export default function HomeHero() {
                 >
                   Prof. Michael R. Lyu
                 </HoverCard>
-                . My recent research focuses on human-centric programming, such as the empirical investigation of developer tools and programming workflows to improve usability, efficiency, and learning outcomes. My interests focus on enhancing the coding experience through heuristic debugging assistance and code-repair tools for programmers and students. My existing research has also contributed to digital transformation in urban planning and management.
+                . My recent research focus on the automated software development and vuneribility detection of coding agents, and my interests revolve around AI Agents, AI4SE & SE4AI, and Formal Verification. My existing research have also contributed to AI and strategic practices in engineering management.
               </p>
 
-              <p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
+              {/*<p className="text-sm leading-relaxed text-white/90 sm:text-[15px]">
                  <br />
                 <strong>I am actively seeking opportunities for Ph.D. studies in the fall of 2026!</strong>
               </p>
-              
-              
+              */}
               <div className="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-3">
                 <div className="flex flex-wrap items-center justify-center gap-2 order-1">
+                  <SocialIconLink href={socialLinks.twitter} label="Twitter / X">
+                    <FaXTwitter className="h-5 w-5" />
+                  </SocialIconLink>
                   <SocialIconLink href={socialLinks.github} label="GitHub">
                     <FaGithub className="h-5 w-5" />
                   </SocialIconLink>
                   <SocialIconLink href={socialLinks.googlescholar} label="Google Scholar">
                     <FaGoogleScholar className="h-5 w-5" />
+                  </SocialIconLink>
+                  <SocialIconLink href={socialLinks.linkedin} label="LinkedIn">
+                    <FaLinkedinIn className="h-5 w-5" />
                   </SocialIconLink>
                   <SocialIconLink href={socialLinks.arxiv} label="ArXiv">
                     <SiArxiv className="h-5 w-5" />
@@ -122,7 +135,7 @@ export default function HomeHero() {
                     <SiOrcid className="h-5 w-5" />
                   </SocialIconLink>
                 </div>
-          {/*
+
                 <Link
                   href="/author/CV.pdf"
                   className="inline-flex h-9 items-center justify-center rounded-md px-4 text-sm font-medium transition 
@@ -132,17 +145,16 @@ export default function HomeHero() {
                     order-2"
                 >
                   Download CV
-                </Link>*/}
+                </Link>
               </div>
-              
 
               <div className="mt-10 grid gap-10 sm:grid-cols-3">
                 <div>
                   <h2 className="text-xl font-semibold mb-4">Interests</h2>
                   <ul className="space-y-4 text-sm text-white/90">
+                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Coding Agents</span></li>
                     <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Software Engineering</span></li>
-                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Empirical Methods</span></li>
-                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>Programming Education</span></li>
+                    <li className="flex gap-3 items-start"><FaCode className="h-5 w-5 mt-0.5 opacity-80" /><span>AI4SE</span></li>
                   </ul>
                 </div>
 
@@ -182,19 +194,15 @@ export default function HomeHero() {
                 <div className="text-lg font-semibold">{owner.name}</div>
                 
                 <div className="flex items-center justify-center gap-[1px] text-sm text-white/90">
-                  <span>cd</span>
-                  <img src="/dot.png" alt="dot" className="h-[12px] w-auto mx-0.5 self-center" />
-                  <span>melvin</span>
-                  <img src="/dot.png" alt="dot" className="h-[12px] w-auto mx-0.5 self-center" />
-                  <span>wang</span>
+                  <span>melvin4</span>
                   <img src="/at.png" alt="at" className="h-[12px] w-auto mx-0.5 self-center" />
-                  <span>outlook</span>
+                  <span>ualberta</span>
                   <img src="/dot.png" alt="dot" className="h-[12px] w-auto mx-0.5 self-center" />
-                  <span>com</span>
+                  <span>ca</span>
                 </div>
 
 
-                <div className="text-xs text-white/85">{education.mscDegree}<br />{education.mscSchool}</div>
+                <div className="text-xs text-white/85">{education.phdDegree}<br />{education.phdSchool}</div>
               </div>
             </div>
           </div>
