@@ -52,7 +52,7 @@ const EXPERIENCES_DATA: ExperienceProps[] = [
 export default function Page() {
   const BlogBlocks = [
     {
-      image: "/uofa/ucommons.jpg",
+      image: "/uofa/ucommons.JPG",
       title: "Joining the University of Alberta as a PhD student",
       link: "/blog/uofa"
     },
