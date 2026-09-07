@@ -345,15 +345,44 @@ export default function Page() {
             </div>
           </div>
         
-        {/*
+        
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-4">office address</h2>
-            <div 
-              className="elfsight-app-fd5d9fb8-51bf-48aa-9435-84dac08007ef" 
-              data-elfsight-app-lazy 
-            ></div>
+          <h2 className="text-xl font-bold mb-4">office address</h2>
+          <div className="space-y-2">
+              <div className="flex">
+                <span className="text-sm text-gray-600 dark:text-gray-400 w-24 flex-shrink-0">
+                  04-069
+                </span>
+                <span className="text-sm ml-4">
+                  University Commons, University of Alberta, Edmonton, AB T6G 2N8
+                </span>
+                <br /><br />
+              </div>
+            </div>
+          <div className="w-full max-h-[550px] aspect-[4/3] overflow-hidden rounded-xl border border-gray-100 dark:border-zinc-800">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.287259628557!2d-113.52538797062421!3d53.52583709008255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a023f2b3b58c57%3A0x4e5f35c7ead93215!2sUniversity%20Commons!5e0!3m2!1sen!2sca!4v1788760625302!5m2!1sen!2sca" 
+              className="w-full h-full dark:invert-[90%] dark:hue-rotate-180 dark:contrast-[85%]"
+              style={{ border: 0 }} 
+              allowFullScreen
+              loading="lazy" 
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
-        */}
+        </div>
+
+
+        <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4">time availability</h2>
+          <div className="w-full max-h-[550px] aspect-[4/3] overflow-hidden rounded-xl border border-gray-100 dark:border-zinc-800">
+          <iframe 
+            src="https://calendar.google.com/calendar/embed?src=melvin4%40ualberta.ca&ctz=America%2FEdmonton" 
+            className="w-full h-full border-0 dark:invert dark:hue-rotate-180"
+            scrolling="no"
+          />
+        </div>
+        </div>
+        
 
         </div>
       </section>
